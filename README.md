@@ -1,0 +1,125 @@
+# Digital SAT Mock Exam (International Edition, Hard Calibration)
+
+A full-length, adaptive-style Digital SAT mock exam that runs in the browser with a clean, distraction-free interface.
+No accounts, no tracking, no dependencies. Progress is saved in your browser's local storage.
+
+## Build status
+
+The exam is generated **one module at a time** so each module can be reviewed before you continue.
+
+| Module | Questions | Time | Status |
+| --- | --- | --- | --- |
+| Reading and Writing · Module 1 | 27 | 32 min | Ready |
+| Reading and Writing · Module 2 | 27 | 32 min | Ready (5 international-student error-pattern items) |
+| Math · Module 1 | 22 | 35 min | Ready (16 multiple choice, 6 grid-in) |
+| Math · Module 2 | 22 | 35 min | Ready (16 multiple choice, 6 grid-in, 3 Desmos multi-step items) |
+
+All four modules are complete. The pack also includes the **scoring guide** (raw to scaled conversion), the
+**post-test analysis framework** (timing audit, error patterns, stamina, Desmos use, vocabulary log, next-session priorities)
+and a **printable pacing card**. Open `report.html` (or the link on the home screen) for the live version, which fills in
+from your saved results. Static copies are in `docs/`.
+
+## How to run
+
+**Option 1: open the file.** Double-click `index.html`. This works because `data/bundle.js` carries the exam data.
+
+**Option 2: local server** (needed only if you edit the JSON and skip the bundle step):
+
+```bash
+npx serve .
+```
+
+If you edit any file in `data/`, rebuild the bundle so double-click mode stays in sync:
+
+```bash
+node tools/build-bundle.mjs
+```
+
+The build script also validates every question (four choices, one answer, four explanations, valid difficulty tag,
+question count matching the manifest), so a typo fails the build instead of the exam.
+
+## Using the exam
+
+- **Timed mode** matches the real module lengths. The timer only runs while a module is open. Time expiring submits the module.
+- **Question navigator** (bottom centre, or `N`) shows answered, unanswered and marked questions, and holds the submit button.
+- **Cross-out tool** (⊘ beside each choice) lets you eliminate options. Click a chosen answer again to clear it.
+- **Labels**: each question shows its domain, skill and difficulty tag. Turn this off in Settings for exam realism.
+- **Results** show raw score, time used, breakdowns by domain, difficulty and skill, then a full review with a key
+  explanation, an explanation for every distractor, and your time against the target time.
+
+Keyboard: `A`-`D` or `1`-`4` answer, `←` `→` move, `F` marks for review, `N` opens the navigator, `Esc` closes dialogs.
+
+## Difficulty calibration
+
+Every item is deliberately written above official College Board difficulty: denser passages, distractors built from
+plausible misreadings, and answers that hinge on a single precise qualifier. Because of that:
+
+- **Tags are relative to this exam.** `[EASY]` here is roughly an official medium item, `[HARD]` is above the official hard tier.
+- Expect scores **below** your usual practice-test level. A raw score around 60% here is a strong result.
+- Difficulty is my calibration, not psychometrically tested, so treat it as a stress test rather than a score predictor.
+
+## International student design principles
+
+Topics are globally accessible and drawn from many regions. Units are metric only, with no US-centric references,
+and language is plain wherever the skill being tested allows. Studies, people and organisations in the passages are
+fictional unless a passage says otherwise.
+
+## Adaptive format
+
+Real Digital SAT routing is proprietary and needs a large calibrated item bank. In this mock, each section's Module 2
+is a **single adaptive-style mix of difficulties** (not a separate easier and harder version), so results are comparable
+between test-takers. Module 2 of Reading and Writing also carries 5 items built around common international-student error
+patterns (near-synonym connotation, preposition collocation, countable vs. uncountable quantity words, unnecessary
+punctuation after a verb, and "on the contrary" vs. "by contrast"). They carry an "International pattern" label and are
+scored separately on the results page.
+
+## Project layout
+
+```
+index.html               exam entry point
+report.html              score report, analysis framework, pacing card
+css/styles.css           focus-oriented light/dark UI
+js/app.js                test engine: timer, navigator, grid-ins, calculator, review
+js/scoring.js            raw-to-scaled model and pacing checkpoints (shared by report and docs build)
+js/report.js             report page logic
+data/manifest.json       module list, timings, status
+data/rw-module-1.json    Reading and Writing Module 1 (27 questions)
+data/rw-module-2.json    Reading and Writing Module 2 (27 questions)
+data/math-module-1.json  Math Module 1 (22 questions)
+data/math-module-2.json  Math Module 2 (22 questions)
+data/bundle.js           generated by tools/build-bundle.mjs
+docs/                    generated: scoring-guide.md, analysis-framework.md, pacing-card.md
+tools/build-bundle.mjs   bundler and validator
+tools/build-docs.mjs     regenerates docs/ from the scoring model and target times
+```
+
+After editing any question, run `node tools/build-bundle.mjs` and `node tools/build-docs.mjs`.
+
+### Math notes
+
+- **Grid-in answers** accept whole numbers, decimals and fractions (for example `-46/5` equals `-9.2`). Rounded answers use a tolerance set per question.
+- **Desmos** loads from desmos.com, so it needs an internet connection. It uses Desmos’s published demo API key, so use your own key if you host this publicly. Change it at the top of `js/app.js`.
+- Math text uses trusted HTML (fractions, superscripts). Modules flagged `"rich": true` are rendered as HTML.
+- Every math answer in Modules 1 and 2 was recomputed independently in code before release.
+
+### Question format
+
+```json
+{
+  "n": 1,
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "EASY | MEDIUM | HARD",
+  "targetSec": 45,
+  "passage": "<p>HTML allowed: p, i, u, ul/li</p>",
+  "table": { "caption": "", "headers": [], "rows": [[]] },
+  "chart": { "title": "", "yLabel": "", "categories": [], "series": [{ "name": "", "values": [] }] },
+  "prompt": "Which choice …",
+  "choices": ["", "", "", ""],
+  "answer": 0,
+  "explanation": "Key explanation",
+  "why": ["A explanation", "B explanation", "C explanation", "D explanation"]
+}
+```
+
+`table` and `chart` are optional.

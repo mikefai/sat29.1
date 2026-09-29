@@ -1,0 +1,692 @@
+{
+  "id": "rw1",
+  "section": "Reading and Writing",
+  "module": 1,
+  "title": "Reading and Writing · Module 1",
+  "minutes": 32,
+  "questions": [
+    {
+      "n": 1,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "EASY",
+      "targetSec": 45,
+      "passage": "<p>Marguerite Oyelaran’s field notes describe the alpine beetle as “dogged” in its pursuit of cool microhabitats, but she is careful to add that the word is figurative. The beetle’s movements, she argues, are best understood as ______ responses to temperature gradients: each is triggered by a simple sensory cue rather than by anything resembling foresight or planning.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "meticulous",
+        "reflexive",
+        "fickle",
+        "discretionary"
+      ],
+      "answer": 1,
+      "explanation": "The passage says each movement is “triggered by a simple sensory cue rather than by anything resembling foresight or planning.” A response that is automatic and unplanned is reflexive.",
+      "why": [
+        "“Meticulous” means extremely careful and precise, which implies deliberate attention. The passage rules out planning.",
+        "Correct. “Reflexive” means automatic and involuntary, matching “triggered by a simple sensory cue.”",
+        "“Fickle” means changeable or unreliable. Nothing in the passage says the beetle’s responses vary unpredictably.",
+        "“Discretionary” means left to the judgment of the one acting. That is the opposite of a response triggered by a cue."
+      ]
+    },
+    {
+      "n": 2,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "MEDIUM",
+      "targetSec": 55,
+      "passage": "<p>When the cellist Ayasha Tolgonbaeva premiered her first suite, several critics dismissed it as ______, pointing to its heavy reliance on familiar Central Asian folk melodies. Listeners who returned to the piece years later, however, heard in those same borrowed tunes a subtle process of reworking that made the familiar sound strange.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "derivative",
+        "incendiary",
+        "cryptic",
+        "fastidious"
+      ],
+      "answer": 0,
+      "explanation": "The critics’ complaint is “heavy reliance on familiar … melodies,” and “however” signals that later listeners saw more originality than the critics did. A work that leans on existing material rather than creating its own is derivative.",
+      "why": [
+        "Correct. “Derivative” means drawn from earlier sources without much originality, which is what “heavy reliance on familiar … melodies” suggests.",
+        "“Incendiary” means inflammatory or provocative. Familiar folk tunes would not make a piece provocative, and the critics’ complaint is about borrowing.",
+        "“Cryptic” means obscure or hard to interpret. The melodies are described as familiar, not puzzling.",
+        "“Fastidious” means excessively concerned with detail. The passage says nothing about fussiness."
+      ]
+    },
+    {
+      "n": 3,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "HARD",
+      "targetSec": 75,
+      "passage": "<p>Far from ______, the memoirist’s account of the closure of her family’s textile mill in Bursa treats the mill’s final months with wry detachment. She does not mourn the loss; instead she lingers over absurd details, such as the foreman who insisted on inspecting looms that had already been sold and the accountant who kept balancing the books of a firm that no longer existed.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "didactic",
+        "sardonic",
+        "effusive",
+        "elegiac"
+      ],
+      "answer": 3,
+      "explanation": "“Far from ______” tells you the blank names what the account is NOT. The next sentences say she “does not mourn the loss.” The quality the account lacks is therefore a mournful, lamenting tone, which is “elegiac.”",
+      "why": [
+        "“Didactic” means intended to teach or instruct. Nothing in the passage contrasts teaching with detachment.",
+        "“Sardonic” means bitterly mocking. It is close to what the account IS (wry, detached), but “far from” flips the logic, so the blank must be the opposite quality. This is the tempting trap.",
+        "“Effusive” means gushing. The passage contrasts detachment with mourning, not with gushing enthusiasm.",
+        "Correct. “Elegiac” means expressing sorrow or lament, exactly what the account is “far from” because “she does not mourn the loss.”"
+      ]
+    },
+    {
+      "n": 4,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "HARD",
+      "targetSec": 70,
+      "passage": "<p>The advisory panel’s report is careful to ______ its central conclusion: although the data reveal a modest association between the two variables, the authors explicitly decline to claim that either one causes the other.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "corroborate",
+        "disseminate",
+        "circumscribe",
+        "obfuscate"
+      ],
+      "answer": 2,
+      "explanation": "The authors keep their conclusion within limits by refusing to claim causation. To “circumscribe” a claim is to restrict it within defined boundaries.",
+      "why": [
+        "“Corroborate” means to confirm with additional evidence. The authors are limiting their claim, not adding support for it.",
+        "“Disseminate” means to spread widely. The sentence is about how far the conclusion goes, not how widely it circulates.",
+        "Correct. “Circumscribe” means to restrict within limits, matching the authors’ refusal to claim causation.",
+        "“Obfuscate” means to make deliberately unclear. The authors are being precise about what the data do and do not show."
+      ]
+    },
+    {
+      "n": 5,
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "passage": "<p>Hydrologists who first noticed that certain tropical rivers run the colour of black tea assumed that the tint came chiefly from decaying leaves. In a recent analysis of the Kandara River system, however, the chemist Adaeze Nwosu found that leaf litter accounts for barely a third of the dissolved organic carbon in the river’s tributaries; the remainder leaches from waterlogged, nutrient-poor peat soils in which roots have scavenged for scarce minerals for millennia. Nwosu’s result does not overturn the leaf-litter explanation so much as demote it, from sole cause to one contributor among several.</p>",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        "It reports a widely held explanation, presents a finding that complicates it, and characterizes the significance of that finding.",
+        "It states a hypothesis, describes an experiment designed to test it, and reports that the hypothesis was confirmed.",
+        "It identifies a puzzle, rejects two proposed solutions, and endorses a third.",
+        "It describes a natural phenomenon, criticizes the methods of earlier researchers, and calls for further study."
+      ],
+      "answer": 0,
+      "explanation": "The first sentence gives the early assumption (leaves), the second gives Nwosu’s complicating finding (only a third from leaves), and the last sentence characterizes what the finding means (it “demotes” rather than “overturns” the old idea).",
+      "why": [
+        "Correct. Assumption → complicating finding → characterization of its significance.",
+        "No experiment is described, and the original explanation is not confirmed. It is qualified.",
+        "Only one earlier explanation (leaf litter) is discussed, and it is not rejected outright. No third solution is “endorsed” over two others.",
+        "The methods of earlier researchers are never criticized, and no call for further study appears."
+      ]
+    },
+    {
+      "n": 6,
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "difficulty": "HARD",
+      "targetSec": 85,
+      "passage": "<p>Urban planners often admire the Dutch <i>woonerf</i>, a residential street on which cars, cyclists, and pedestrians share a single surface with no kerbs or lane markings. Proponents contend that removing conventional cues forces drivers to slow down and negotiate space with others. <u>Yet in a study of fourteen such streets, the traffic engineer Lieke van Aalst found that average vehicle speeds fell noticeably only on streets shorter than 150 metres.</u> On longer streets, speeds were statistically indistinguishable from those on conventionally marked roads, a pattern that suggests the design’s effect depends less on the absence of markings than on drivers’ perception that a space is small and intimate.</p>",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        "It offers a concrete example that illustrates the proponents’ claim.",
+        "It questions the reliability of the study described in the following sentence.",
+        "It restates the proponents’ claim in more technical terms.",
+        "It introduces evidence that complicates the proponents’ explanation and prepares for an alternative account."
+      ],
+      "answer": 3,
+      "explanation": "“Yet” signals a turn against the proponents’ view. The underlined sentence gives a finding (the effect appears only on short streets) that the proponents’ explanation cannot easily accommodate, and the final sentence then offers a different account (perceived intimacy).",
+      "why": [
+        "The sentence does not illustrate the claim. It qualifies it (“Yet … only on streets shorter than 150 metres”).",
+        "The following sentence extends the study’s findings; it is not challenged. The passage never doubts the study’s reliability.",
+        "The sentence introduces new data. It does not restate anything the proponents said.",
+        "Correct. It complicates the proponents’ explanation and sets up the alternative account in the last sentence."
+      ]
+    },
+    {
+      "n": 7,
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "passage": "<p><strong>Text 1</strong></p><p>The archaeologist Rahul Menon argues that the abandonment of the hill settlement of Karvela around 1200 CE was driven primarily by prolonged drought. He points to lake-sediment cores from the region showing a marked decline in pollen from cultivated cereals during the period, and he notes that no comparable settlement within thirty kilometres was occupied afterward.</p><p><strong>Text 2</strong></p><p>The historian Sofia Brandão accepts Menon’s sediment evidence but questions his conclusion. Cereal pollen declines, she observes, whenever farmers shift to root crops, which shed little airborne pollen; the sediment record alone therefore cannot distinguish a failing harvest from a change in what was planted. Only direct evidence of food shortage, such as skeletal indicators of malnutrition, would settle the matter.</p>",
+      "prompt": "Based on the texts, how would Brandão (Text 2) most likely respond to Menon’s use of the sediment cores (Text 1)?",
+      "choices": [
+        "By arguing that the cores are unreliable because they were drawn from too few locations",
+        "By contending that the decline in cereal pollen is compatible with an explanation other than drought",
+        "By conceding that drought caused the abandonment but disputing when the drought began",
+        "By proposing that the cores be re-examined for evidence of root-crop pollen"
+      ],
+      "answer": 1,
+      "explanation": "Brandão “accepts” the sediment evidence itself but argues that a decline in cereal pollen could also result from a shift to root crops. She therefore treats the same data as compatible with a non-drought explanation.",
+      "why": [
+        "Brandão explicitly accepts the sediment evidence. She does not question how many locations were sampled.",
+        "Correct. A cereal-pollen decline could also mean farmers switched to root crops, so the evidence does not by itself point to drought.",
+        "Brandão does not concede that drought was the cause, and she says nothing about the timing of any drought.",
+        "She notes that root crops shed little pollen, so re-examining the cores for it would not help. She recommends skeletal evidence instead."
+      ]
+    },
+    {
+      "n": 8,
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "passage": "<p>Development economists have long assumed that microloans succeed chiefly by supplying capital to entrepreneurs who cannot obtain it from banks. A field study led by Nadia Rahman complicates that assumption. Rahman’s team followed 1,200 first-time borrowers across sixty villages, assigning some to repayment groups of five and others to borrow individually on otherwise identical terms. After two years, borrowers in groups reported significantly higher business profits, even though loan sizes did not differ. Interviews suggested why: group members routinely shared supplier contacts, pricing tips, and warnings about unreliable customers. Rahman concludes that the informational advantages of group lending may account for a larger share of microcredit’s benefits than the money itself.</p>",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        "Microloans are less effective for individual borrowers than economists have previously reported.",
+        "Repayment groups of five are more likely than larger groups to repay their loans on time.",
+        "A study suggests that the benefits of group microloans may stem more from information sharing among borrowers than from the capital provided.",
+        "Economists have long underestimated how much capital entrepreneurs in rural villages require."
+      ],
+      "answer": 2,
+      "explanation": "The text sets up the standard assumption (capital matters most), presents Rahman’s study, and ends with her conclusion that information sharing may matter more than the money. Choice C captures that, including the cautious “may.”",
+      "why": [
+        "Individual borrowers did earn less than group borrowers, but the text does not say microloans are ineffective for them or that earlier reports overstated their effect.",
+        "The study compared groups of five with individual borrowers. It says nothing about repayment rates or larger groups.",
+        "Correct. This matches the study design, the interview evidence, and Rahman’s cautious conclusion.",
+        "The study shows loan size did not explain the difference in profits. It does not suggest borrowers needed more capital."
+      ]
+    },
+    {
+      "n": 9,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence (Textual)",
+      "difficulty": "HARD",
+      "targetSec": 90,
+      "passage": "<p>The ecologist Tomasz Wieczorek hypothesizes that city-dwelling blackbirds sing at higher pitches than their rural counterparts not because urban life as such alters their songs, but because low-frequency traffic noise masks the lower notes of a song, so that individuals singing at higher pitches are more likely to be heard by potential mates.</p>",
+      "prompt": "Which finding, if true, would most directly support Wieczorek’s hypothesis?",
+      "choices": [
+        "The songs of urban blackbirds are, on average, shorter than the songs of rural blackbirds.",
+        "Blackbirds in several different cities sing at higher pitches than rural blackbirds do, although the size of the difference varies from city to city.",
+        "Blackbirds living in quiet urban parks sing at pitches similar to those of rural blackbirds, while blackbirds living beside busy roads sing at markedly higher pitches.",
+        "Rural blackbirds that hear recordings of higher-pitched songs are more likely to approach the source of the recording."
+      ],
+      "answer": 2,
+      "explanation": "The hypothesis has a specific causal claim: noise, not “urban life as such,” drives the pitch shift. The strongest support separates the two factors. Quiet urban birds sing like rural birds, while birds exposed to traffic noise sing higher.",
+      "why": [
+        "Song length is irrelevant to pitch and to masking of lower notes.",
+        "This is consistent with the hypothesis but equally consistent with urban life “as such” altering songs, which Wieczorek rejects. It does not isolate noise.",
+        "Correct. Holding “urban” constant while varying noise isolates noise as the cause.",
+        "This concerns rural birds’ response to pitch and does not address traffic noise or masking."
+      ]
+    },
+    {
+      "n": 10,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence (Quantitative)",
+      "difficulty": "MEDIUM",
+      "targetSec": 90,
+      "passage": "<p>The botanist Inés Vargas hypothesized that the seeds of wetland plant species are far more sensitive to dry conditions than the seeds of drought-adapted species are. To test this, her team sowed seeds from two drought-adapted species and two wetland species in soil at three moisture levels and recorded the percentage of seeds that germinated within 14 days.</p>",
+      "table": {
+        "caption": "Percentage of seeds germinating within 14 days",
+        "headers": [
+          "Species",
+          "Dry soil (10% moisture)",
+          "Moist soil (30% moisture)",
+          "Saturated soil (50% moisture)"
+        ],
+        "rows": [
+          [
+            "Species A (drought-adapted)",
+            "72",
+            "78",
+            "41"
+          ],
+          [
+            "Species B (drought-adapted)",
+            "65",
+            "69",
+            "30"
+          ],
+          [
+            "Species C (wetland)",
+            "12",
+            "55",
+            "81"
+          ],
+          [
+            "Species D (wetland)",
+            "8",
+            "49",
+            "77"
+          ]
+        ]
+      },
+      "prompt": "Which choice most effectively uses data from the table to support Vargas’s hypothesis?",
+      "choices": [
+        "In saturated soil, wetland species germinated at rates above 75 percent, compared with fewer than 45 percent for the drought-adapted species.",
+        "Germination rates for all four species were highest in moist soil.",
+        "Species A germinated at a higher rate in dry soil than Species D did in moist soil.",
+        "In dry soil, fewer than 15 percent of wetland seeds germinated, whereas at least 65 percent of drought-adapted seeds did."
+      ],
+      "answer": 3,
+      "explanation": "The hypothesis concerns sensitivity to DRY conditions, so the relevant comparison is germination in dry soil across the two groups: wetland 12% and 8% versus drought-adapted 72% and 65%.",
+      "why": [
+        "The numbers are accurate but concern saturated soil (waterlogging), not dry conditions. It supports a different claim.",
+        "False. Species C and D germinated best in saturated soil (81 and 77), not moist soil.",
+        "True (72 vs 49) but compares different species under different moisture levels, so it says nothing about sensitivity to dryness.",
+        "Correct. Both wetland species were below 15% (12, 8) and both drought-adapted species were at or above 65% (72, 65) in dry soil."
+      ]
+    },
+    {
+      "n": 11,
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "difficulty": "HARD",
+      "targetSec": 90,
+      "passage": "<p>Because medieval Arabic geographers typically compiled route descriptions from the accounts of merchants and pilgrims rather than from direct survey, they tended to record distances in units of travel time, such as days’ journey, rather than in units of length. The historian Layla Haddad observes that this practice yields a curious result: the distance between two cities as recorded in a single text can differ considerably depending on which route the informant followed, the season of travel, and how heavily laden the caravan was. Haddad therefore concludes that the distances in these texts are best understood as ______</p>",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        "unreliable measurements that were later replaced with surveyed values in the same texts.",
+        "deliberate exaggerations meant to convey the hardship of travel.",
+        "approximations of the shortest path between cities, expressed in unfamiliar units.",
+        "records of particular journeys rather than fixed properties of the places themselves."
+      ],
+      "answer": 3,
+      "explanation": "The recorded distance depends on the route, season, and load of a specific journey. It is therefore a feature of that journey, not a stable property of the pair of cities.",
+      "why": [
+        "Nothing in the passage says the values were later replaced or that the texts were revised with surveyed data.",
+        "No evidence suggests intent to exaggerate. The variation comes from real differences in journeys.",
+        "The passage says the figures vary with route, so they do not represent the shortest path.",
+        "Correct. Variation by route, season, and load shows the figures describe individual trips."
+      ]
+    },
+    {
+      "n": 12,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence (Textual)",
+      "difficulty": "MEDIUM",
+      "targetSec": 75,
+      "passage": "<p>A student is analyzing Wanjiru Kamau’s novel <i>The Weight of Rain</i>. The student claims that the narrator, Mumbi, reveals her reluctance to accept her father’s decline by absorbing herself in small practical tasks rather than confronting his illness directly.</p>",
+      "prompt": "Which quotation from the novel most effectively illustrates the student’s claim?",
+      "choices": [
+        "“The doctor spoke slowly, as though the words themselves might bruise, and Mumbi nodded without hearing any of them.”",
+        "“Outside, the rains had come early, and the roof of the clinic drummed with a sound like distant applause.”",
+        "“Each morning she counted his pills into the blue dish, lining them up by size, and each morning she told the nurse that he had slept well.”",
+        "“Her brother arrived from Nairobi that evening, and the two of them sat in the kitchen without speaking until the kettle went cold.”"
+      ],
+      "answer": 2,
+      "explanation": "The claim has two parts: (1) she busies herself with small practical tasks and (2) she avoids confronting the illness. Only choice C shows both: the ritual of counting pills and the routine reassurance that he “had slept well.”",
+      "why": [
+        "Shows Mumbi not listening (avoidance) but no practical tasks.",
+        "Describes the setting and says nothing about Mumbi’s behavior.",
+        "Correct. Counting pills into a dish is a small practical task, and telling the nurse he slept well avoids the reality of his decline.",
+        "Shows silence between siblings but no practical task or avoidance of the illness."
+      ]
+    },
+    {
+      "n": 13,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence (Quantitative)",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "passage": "<p>A housing researcher claims that although rooftop solar adoption has grown in every income group, it has grown fastest in proportional terms among the lowest-income households, even as the absolute gap between the highest- and lowest-income households has widened.</p>",
+      "chart": {
+        "title": "Share of households with rooftop solar panels, by income group",
+        "yLabel": "Households with panels (%)",
+        "categories": [
+          "Lowest-income third",
+          "Middle third",
+          "Highest-income third"
+        ],
+        "series": [
+          {
+            "name": "2015",
+            "values": [
+              2,
+              4,
+              11
+            ]
+          },
+          {
+            "name": "2023",
+            "values": [
+              9,
+              18,
+              27
+            ]
+          }
+        ]
+      },
+      "prompt": "Which choice most effectively uses data from the graph to illustrate the researcher’s claim?",
+      "choices": [
+        "Between 2015 and 2023, adoption among lowest-income households rose about 4.5-fold (from 2 to 9 percent) while adoption among highest-income households rose about 2.5-fold (from 11 to 27 percent); over the same period, the gap between the two groups grew from 9 to 18 percentage points.",
+        "Between 2015 and 2023, adoption among highest-income households rose about 4.5-fold (from 2 to 9 percent) while adoption among lowest-income households rose about 2.5-fold (from 11 to 27 percent); over the same period, the gap between the two groups narrowed from 18 to 9 percentage points.",
+        "Adoption among lowest-income households rose by 7 percentage points and among highest-income households by 16 percentage points, so proportional growth was greatest among the highest-income households.",
+        "Adoption among lowest- and middle-income households each rose about 4.5-fold, and the gap between middle- and highest-income households widened from 7 to 9 percentage points."
+      ],
+      "answer": 0,
+      "explanation": "Two things must be shown: proportional growth was greatest for the lowest group (2→9 is 4.5×, versus 11→27 at about 2.5×) and the absolute gap widened (11−2 = 9 points in 2015; 27−9 = 18 points in 2023). Only choice A does both accurately.",
+      "why": [
+        "Correct. Lowest: 2→9 = 4.5×. Highest: 11→27 ≈ 2.5×. Gap: 9 points (2015) → 18 points (2023).",
+        "The data are assigned to the wrong groups and the gap is described as narrowing from 18 to 9, which reverses the true direction.",
+        "The point increases are accurate (7 and 16), but the conclusion is wrong. Proportionally, 2→9 grew far more than 11→27. It also ignores the gap claim.",
+        "The statistics are accurate (4→18 is 4.5×; gap 7→9), but the choice ignores the highest-versus-lowest comparison the researcher makes."
+      ]
+    },
+    {
+      "n": 14,
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "passage": "<p>Physicists modelling heat flow through a novel ceramic insulation predicted that thicker layers would always insulate better. Experiments by Kaito Nishimura’s team, however, showed that beyond a thickness of 4 centimetres additional material produced no measurable improvement, and beyond 6 centimetres performance worsened slightly. Nishimura suggests that in thicker layers the ceramic cools unevenly during manufacture, forming internal cracks that allow air to circulate within the layer. If Nishimura’s explanation is correct, a manufacturer seeking the best insulation from this ceramic would most likely ______</p>",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        "apply the ceramic in layers no thicker than about 4 centimetres, adding further layers only if more insulation is needed.",
+        "use the thickest layers its process can produce, since thickness reliably improves insulation.",
+        "abandon the ceramic entirely, since its insulating ability declines as thickness increases.",
+        "choose layers of about 6 centimetres, since that thickness produced the best insulation in the experiments."
+      ],
+      "answer": 0,
+      "explanation": "Insulation stopped improving at about 4 cm, and Nishimura attributes the later decline to cracks in thicker layers. Keeping each layer to about 4 cm avoids that problem while still allowing more total insulation through additional layers.",
+      "why": [
+        "Correct. This uses the ceramic at its effective thickness and avoids the cracking mechanism.",
+        "Contradicts the experiments: beyond 4 cm there was no gain, and beyond 6 cm performance worsened.",
+        "Overreach. The ceramic performs well up to about 4 cm. The problem occurs only in thicker layers.",
+        "Misreads the data. Performance did not improve past 4 cm and worsened past 6 cm."
+      ]
+    },
+    {
+      "n": 15,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "difficulty": "MEDIUM",
+      "targetSec": 40,
+      "passage": "<p>The glaciologist Ana Sofía Reyes, who has spent eleven austral winters drilling ice cores on a high plateau in southern Patagonia ______ argues that the record preserved there is unusually fine-grained: individual storms can be distinguished layer by layer.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "Patagonia;",
+        "Patagonia,",
+        "Patagonia:",
+        "Patagonia"
+      ],
+      "answer": 1,
+      "explanation": "“who has spent … Patagonia” is a nonessential relative clause that interrupts the subject and its verb (“Reyes … argues”). It began after a comma (“Reyes,”) so it must end with a matching comma.",
+      "why": [
+        "A semicolon must separate two independent clauses. Here it would separate a subject from its verb.",
+        "Correct. The comma closes the nonessential clause opened by the comma after “Reyes.”",
+        "A colon must follow an independent clause. “Reyes, who has spent … Patagonia” is not one.",
+        "Without punctuation the nonessential clause is left open, since it began with a comma."
+      ]
+    },
+    {
+      "n": 16,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "difficulty": "MEDIUM",
+      "targetSec": 45,
+      "passage": "<p>The trial’s investigators had anticipated that the compound would relieve symptoms in the treatment group ______ participants given the compound reported symptoms no different from those of participants given the placebo.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "group; instead, participants",
+        "group, instead, participants",
+        "group; instead participants",
+        "group instead: participants"
+      ],
+      "answer": 0,
+      "explanation": "Two independent clauses are joined here, and “instead” is a conjunctive adverb. The correct pattern is a semicolon before it and a comma after it.",
+      "why": [
+        "Correct. Semicolon + conjunctive adverb + comma.",
+        "The commas create a comma splice, since a comma alone cannot join two independent clauses.",
+        "The semicolon is right, but the conjunctive adverb “instead” needs a comma after it.",
+        "Creates a run-on, and a colon is inappropriate because the second clause contrasts with, rather than explains, the first."
+      ]
+    },
+    {
+      "n": 17,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "difficulty": "MEDIUM",
+      "targetSec": 45,
+      "passage": "<p>Coral bleaching—the expulsion of the symbiotic algae that give reef-building corals both their colour and much of their nutrition ______ occurs when sea temperatures remain even one or two degrees above the seasonal maximum for several weeks.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "nutrition,",
+        "nutrition—",
+        "nutrition;",
+        "nutrition:"
+      ],
+      "answer": 1,
+      "explanation": "The sentence opens the interrupting phrase with a dash after “bleaching,” so the phrase must be closed with a dash before the verb “occurs.” Pairs of dashes must match.",
+      "why": [
+        "Mixing a dash with a comma is not allowed.",
+        "Correct. The closing dash completes the pair opened after “bleaching.”",
+        "A semicolon would separate the subject phrase from its verb.",
+        "A colon would separate the subject phrase from its verb and does not close the dash-set-off phrase."
+      ]
+    },
+    {
+      "n": 18,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "MEDIUM",
+      "targetSec": 40,
+      "passage": "<p>Among the artifacts now displayed in the museum’s new maritime gallery ______ a set of bronze dividers, whose finely cut gradations suggest that the ship’s navigator relied on more than pilots’ rules of thumb.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "are",
+        "were",
+        "was",
+        "is"
+      ],
+      "answer": 3,
+      "explanation": "The sentence is inverted: the real subject is “a set of bronze dividers” (singular), not “artifacts.” The surrounding verbs (“displayed,” “suggest”) are present tense, so the verb must be singular and present: “is.”",
+      "why": [
+        "“Are” is plural and would agree with “artifacts,” which is only the object of the preposition “among.”",
+        "“Were” is plural and past tense.",
+        "“Was” agrees in number but is past tense. The context (“now displayed,” “suggest”) is present.",
+        "Correct. Singular subject (“a set”), present tense."
+      ]
+    },
+    {
+      "n": 19,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "MEDIUM",
+      "targetSec": 50,
+      "passage": "<p>Excavated in the 1960s and initially assumed to be purely decorative, ______</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "scholars have since shown that the glazed tiles encode records of trade routes.",
+        "records of trade routes have since been shown by scholars to be encoded in the glazed tiles.",
+        "the glazed tiles have since been shown by scholars to encode records of trade routes.",
+        "it has since been shown by scholars that the glazed tiles encode records of trade routes."
+      ],
+      "answer": 2,
+      "explanation": "The opening modifier (“Excavated … and initially assumed to be purely decorative”) must describe the noun that comes immediately after the comma. Only the tiles were excavated and assumed to be decorative.",
+      "why": [
+        "Dangling modifier. It implies the scholars were excavated and assumed decorative.",
+        "Dangling modifier. It implies the records of trade routes were excavated and assumed decorative.",
+        "Correct. “The glazed tiles” is the logical noun to be modified.",
+        "“It” is an expletive with no logical referent for the modifier, so the modifier dangles."
+      ]
+    },
+    {
+      "n": 20,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "EASY",
+      "targetSec": 35,
+      "passage": "<p>If the reservoir’s operators ______ its storage capacity two decades ago, the city would not now be rationing water each summer.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "expanded",
+        "had expanded",
+        "would have expanded",
+        "have expanded"
+      ],
+      "answer": 1,
+      "explanation": "The sentence is a counterfactual conditional about the past (“two decades ago”). The “if” clause takes the past perfect (“had expanded”), and the main clause takes “would” + verb.",
+      "why": [
+        "Simple past is used for present or future unreal conditions, not for an unreal past event.",
+        "Correct. “If + past perfect … would not now be” is the standard mixed conditional.",
+        "“Would have” belongs in the result clause, not in the “if” clause.",
+        "Present perfect conflicts with “two decades ago,” which names a completed time in the past."
+      ]
+    },
+    {
+      "n": 21,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "difficulty": "EASY",
+      "targetSec": 40,
+      "passage": "<p>Lichens are often described as single organisms, yet each is in fact a partnership between a fungus and at least one photosynthetic partner. ______ the fungus supplies structure and retains moisture, while the alga or cyanobacterium supplies sugars produced from sunlight.</p>",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        "Nevertheless,",
+        "Consequently,",
+        "Specifically,",
+        "Likewise,"
+      ],
+      "answer": 2,
+      "explanation": "The second sentence spells out what each partner contributes, which specifies the “partnership” introduced in the first sentence.",
+      "why": [
+        "“Nevertheless” signals contrast. The second sentence elaborates instead.",
+        "“Consequently” signals a result. The partners’ roles are not a result of the partnership.",
+        "Correct. “Specifically” introduces detail that clarifies the general statement.",
+        "“Likewise” signals similarity between two separate points. Here there is one point elaborated."
+      ]
+    },
+    {
+      "n": 22,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "difficulty": "MEDIUM",
+      "targetSec": 55,
+      "passage": "<p>The company’s 2022 report described its pilot programme as a success, citing a 14 percent rise in customer sign-ups. ______ the same report acknowledged that only 3 percent of the new customers were still active six months later, a figure that complicates the report’s optimistic framing.</p>",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        "Nevertheless,",
+        "Thus,",
+        "Furthermore,",
+        "Likewise,"
+      ],
+      "answer": 0,
+      "explanation": "The first sentence gives an optimistic claim and the second a fact that undercuts it. The relationship is one of contrast or concession.",
+      "why": [
+        "Correct. “Nevertheless” marks a contrast: despite the success claim, the report admits a weakness.",
+        "“Thus” signals a result. The low retention does not follow from the success claim.",
+        "“Furthermore” adds a supporting point, but the second sentence weakens the first.",
+        "“Likewise” signals similarity, but the two sentences point in opposite directions."
+      ]
+    },
+    {
+      "n": 23,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "difficulty": "HARD",
+      "targetSec": 60,
+      "passage": "<p>Pollen counts are commonly reported as though they were a direct measure of allergy risk. ______ the relationship is loose: a day with modest counts of a highly allergenic grass pollen can provoke more symptoms than a day with high counts of a mild one.</p>",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        "Thus,",
+        "Likewise,",
+        "Meanwhile,",
+        "In fact,"
+      ],
+      "answer": 3,
+      "explanation": "The first sentence describes a common assumption, and the second corrects it by stating what is actually the case. “In fact” introduces that correction.",
+      "why": [
+        "“Thus” signals a result or conclusion, but the second sentence corrects the first.",
+        "“Likewise” signals similarity, but the second sentence contradicts the first.",
+        "“Meanwhile” signals simultaneous events, which is not the relationship.",
+        "Correct. “In fact” introduces the true state of affairs against the common assumption."
+      ]
+    },
+    {
+      "n": 24,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "MEDIUM",
+      "targetSec": 75,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li>The Solano Institute compared two irrigation methods on tomato farms in a semi-arid region.</li><li>Drip irrigation used an average of 4,200 cubic metres of water per hectare per season.</li><li>Flood irrigation used an average of 9,800 cubic metres of water per hectare per season.</li><li>Yields were nearly identical: 71 tonnes per hectare under drip irrigation and 70 tonnes per hectare under flood irrigation.</li></ul>",
+      "prompt": "The student wants to emphasize that drip irrigation achieved comparable yields while using far less water. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "In the Solano Institute’s study, drip irrigation used 4,200 cubic metres of water per hectare per season, and flood irrigation used 9,800.",
+        "Although tomato yields were nearly identical (71 tonnes per hectare under drip irrigation versus 70 under flood), drip irrigation used 4,200 cubic metres of water per hectare per season, less than half the 9,800 that flood irrigation used.",
+        "Drip irrigation produced 71 tonnes of tomatoes per hectare, slightly more than the 70 tonnes per hectare produced under flood irrigation.",
+        "Because flood irrigation used more than twice as much water as drip irrigation, it produced a higher tomato yield."
+      ],
+      "answer": 1,
+      "explanation": "The goal requires both parts: comparable yields and much lower water use. Only choice B states both. It also uses accurate quantities (4,200 is less than half of 9,800).",
+      "why": [
+        "States the water figures but omits yield, so it cannot show that yields were comparable.",
+        "Correct. Contains both facts with accurate figures and an accurate comparison.",
+        "States yield only, so it omits the water savings.",
+        "Contradicts the notes. Flood irrigation’s yield (70) was slightly lower, not higher."
+      ]
+    },
+    {
+      "n": 25,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "MEDIUM",
+      "targetSec": 75,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li>In 2020, linguist Chukwuemeka Obi published a study of code-switching, the alternation between two languages within a conversation.</li><li>Obi recorded 48 Yoruba–English bilingual speakers in Lagos during casual conversations.</li><li>Each recording lasted about 40 minutes.</li><li>Speakers switched languages most often at clause boundaries rather than in the middle of a clause.</li></ul>",
+      "prompt": "The student wants to introduce Obi’s study and its main finding to an audience unfamiliar with the topic. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "In a 2020 study of code-switching, linguist Chukwuemeka Obi recorded 48 Yoruba–English bilingual speakers in casual conversation in Lagos and found that they switched languages most often at clause boundaries rather than mid-clause.",
+        "Speakers who use two languages, such as the 48 Yoruba–English bilinguals recorded in Lagos, tend to switch at clause boundaries.",
+        "Linguist Chukwuemeka Obi has spent years studying how people who speak more than one language behave in conversation.",
+        "Obi’s 2020 study consisted of 48 recordings, each lasting about 40 minutes."
+      ],
+      "answer": 0,
+      "explanation": "An introduction to an unfamiliar audience should name the researcher, the topic, the method, and the finding. Choice A does all four and stays within the notes.",
+      "why": [
+        "Correct. Names the researcher and topic, describes the method, and states the finding.",
+        "Omits the researcher and the study, and generalizes from a single sample of 48 to speakers in general.",
+        "“Has spent years” is not in the notes, and the sentence contains no study details or finding.",
+        "Gives method details only and omits the finding."
+      ]
+    },
+    {
+      "n": 26,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "HARD",
+      "targetSec": 80,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li>A qanat is an underground channel that carries groundwater from an upland aquifer to lower-lying farmland.</li><li>Qanats have been used in Iran for more than 2,500 years.</li><li>Some Iranian qanats are more than 70 kilometres long.</li><li>Because qanats rely on gravity alone, they need no pumps or external energy.</li></ul>",
+      "prompt": "The student wants to explain why qanats are regarded as an efficient technology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "An underground channel that carries groundwater to farmland, a qanat can be more than 70 kilometres long.",
+        "Some qanats, more than 70 kilometres long, have carried groundwater by gravity alone for more than 2,500 years.",
+        "Qanats, which have been used in Iran for more than 2,500 years, carry groundwater downhill by gravity alone and so require no pumps or external energy.",
+        "Qanats, some of which are more than 70 kilometres long, are the oldest surviving irrigation systems in the world."
+      ],
+      "answer": 2,
+      "explanation": "Efficiency is explained by the fact that qanats “rely on gravity alone” and so “need no pumps or external energy.” Choice C states this and adds the supporting longevity fact without altering it.",
+      "why": [
+        "Describes what a qanat is and how long one can be, but gives no reason for efficiency.",
+        "Merges two separate facts into an unsupported claim: the notes do not say that 70-kilometre qanats have operated for 2,500 years.",
+        "Correct. Gives the efficiency reason (gravity, no pumps or external energy) and stays within the notes.",
+        "“The oldest surviving irrigation systems in the world” is not in the notes, and the sentence does not address efficiency."
+      ]
+    },
+    {
+      "n": 27,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "HARD",
+      "targetSec": 85,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li>Researchers surveyed 2,000 adults in 2022 about their daily commute times.</li><li>Respondents were recruited through a smartphone app that tracks commutes.</li><li>The average reported commute was 38 minutes.</li><li>The researchers note that people who use commute-tracking apps may be more concerned with efficiency than most commuters are.</li></ul>",
+      "prompt": "The student wants to present the survey’s main finding while noting a limitation on how far it can be generalized. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "The 2022 survey of 2,000 adults found an average commute of 38 minutes.",
+        "Although 2,000 adults were surveyed, the average commute of 38 minutes shows that most commuters spend too long travelling.",
+        "Researchers recruited respondents through an app designed to track commutes, a method common in modern surveys.",
+        "Although the 2022 survey of 2,000 adults found an average commute of 38 minutes, its respondents were recruited through a commute-tracking app and may be more concerned with efficiency than most commuters are."
+      ],
+      "answer": 3,
+      "explanation": "The goal has two parts: (1) the main finding and (2) a limitation on generalizing it. Choice D reports the 38-minute average and then flags the recruitment method that could make respondents unrepresentative.",
+      "why": [
+        "States the finding but gives no limitation.",
+        "“Shows that most commuters spend too long travelling” is an unsupported judgment, and no limitation is noted.",
+        "Describes the recruitment method but omits the finding, and “common in modern surveys” is not in the notes.",
+        "Correct. Gives the finding and the limitation, staying within the notes."
+      ]
+    }
+  ]
+}

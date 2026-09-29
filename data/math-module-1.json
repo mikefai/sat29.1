@@ -1,0 +1,496 @@
+{
+  "id": "m1",
+  "section": "Math",
+  "module": 1,
+  "title": "Math · Module 1",
+  "minutes": 35,
+  "rich": true,
+  "questions": [
+    {
+      "n": 1,
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "EASY",
+      "targetSec": 50,
+      "prompt": "The graph of <i>f</i>(<i>x</i>) = −3<i>x</i> + 7 is translated 4 units to the left and 2 units down to obtain the graph of <i>g</i>. Which equation defines <i>g</i>?",
+      "choices": [
+        "<i>g</i>(<i>x</i>) = −3<i>x</i> + 17",
+        "<i>g</i>(<i>x</i>) = −3<i>x</i> − 7",
+        "<i>g</i>(<i>x</i>) = −3<i>x</i> − 5",
+        "<i>g</i>(<i>x</i>) = −3<i>x</i> + 5"
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>A shift 4 units left replaces <i>x</i> with <i>x</i> + 4, and a shift 2 units down subtracts 2: <i>g</i>(<i>x</i>) = <i>f</i>(<i>x</i> + 4) − 2.</li><li><i>f</i>(<i>x</i> + 4) = −3(<i>x</i> + 4) + 7 = −3<i>x</i> − 5.</li><li>Subtract 2: <i>g</i>(<i>x</i>) = −3<i>x</i> − 7.</li></ol>",
+      "why": [
+        "This is <i>f</i>(<i>x</i> − 4) − 2, a shift 4 units to the <b>right</b>. Left means adding 4 inside the function.",
+        "Correct. <i>g</i>(<i>x</i>) = <i>f</i>(<i>x</i> + 4) − 2 = −3<i>x</i> − 7.",
+        "This applies only the horizontal shift, <i>f</i>(<i>x</i> + 4), and forgets the 2-unit downward shift.",
+        "This applies only the vertical shift, <i>f</i>(<i>x</i>) − 2, and forgets the horizontal shift."
+      ]
+    },
+    {
+      "n": 2,
+      "type": "grid",
+      "domain": "Algebra",
+      "skill": "Linear functions (modelling)",
+      "difficulty": "MEDIUM",
+      "targetSec": 75,
+      "prompt": "The cost <i>C</i>(<i>n</i>), in euros, of manufacturing <i>n</i> identical circuit boards is a linear function of <i>n</i>. Manufacturing 40 boards costs 1,150 euros, and manufacturing 90 boards costs 1,900 euros. A client has a budget of 4,000 euros. What is the greatest number of boards that can be manufactured within the budget?",
+      "nums": [
+        230
+      ],
+      "display": "230",
+      "explanation": "<ol class=\"steps\"><li>Slope (cost per board) = (1,900 − 1,150) ÷ (90 − 40) = 750 ÷ 50 = 15 euros.</li><li><i>C</i>(<i>n</i>) = 15<i>n</i> + <i>b</i>. Using 40 boards: 1,150 = 15(40) + <i>b</i>, so <i>b</i> = 550.</li><li>Budget condition: 15<i>n</i> + 550 ≤ 4,000, so 15<i>n</i> ≤ 3,450 and <i>n</i> ≤ 230.</li><li>The greatest whole number of boards is <b>230</b>.</li></ol>"
+    },
+    {
+      "n": 3,
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "EASY",
+      "targetSec": 75,
+      "prompt": "What value of <i>x</i> satisfies the equation <span class=\"frac\"><span>3<i>x</i> − 1</span><span>4</span></span> − <span class=\"frac\"><span><i>x</i> + 2</span><span>6</span></span> = <span class=\"frac\"><span>5</span><span>12</span></span> ?",
+      "choices": [
+        "<span class=\"frac\"><span>12</span><span>7</span></span>",
+        "<span class=\"frac\"><span>4</span><span>11</span></span>",
+        "<span class=\"frac\"><span>6</span><span>7</span></span>",
+        "<span class=\"frac\"><span>7</span><span>12</span></span>"
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li>Multiply every term by the common denominator 12: 3(3<i>x</i> − 1) − 2(<i>x</i> + 2) = 5.</li><li>Distribute carefully: 9<i>x</i> − 3 − 2<i>x</i> − 4 = 5.</li><li>Combine: 7<i>x</i> − 7 = 5, so 7<i>x</i> = 12.</li><li><i>x</i> = 12/7.</li></ol>",
+      "why": [
+        "Correct. 9<i>x</i> − 3 − 2<i>x</i> − 4 = 5 gives 7<i>x</i> = 12.",
+        "This comes from a sign error on the second fraction: 9<i>x</i> − 3 + 2<i>x</i> + 4 = 5 gives 11<i>x</i> = 4.",
+        "This comes from not distributing the minus sign onto the 2: 9<i>x</i> − 3 − 2<i>x</i> + 2 = 5 gives 7<i>x</i> = 6.",
+        "This is the reciprocal of the correct value. Substituting it into the left side does not give 5/12."
+      ]
+    },
+    {
+      "n": 4,
+      "domain": "Algebra",
+      "skill": "Linear inequalities in two variables",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "A cyclist rides <i>x</i> kilometres on flat road at an average speed of 24 km/h and <i>y</i> kilometres on hills at an average speed of 15 km/h. The cyclist wants to ride a total of at least 60 kilometres in at most 3 hours, with at least 20 kilometres on flat road. Which ordered pair (<i>x</i>, <i>y</i>) satisfies all of these conditions?",
+      "choices": [
+        "(40, 20)",
+        "(20, 40)",
+        "(24, 36)",
+        "(30, 30)"
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li>The conditions are <i>x</i> + <i>y</i> ≥ 60, <i>x</i> ≥ 20, and the time condition <i>x</i>/24 + <i>y</i>/15 ≤ 3.</li><li>All four pairs have <i>x</i> + <i>y</i> = 60 and <i>x</i> ≥ 20, so time decides.</li><li>(40, 20): 40/24 + 20/15 = 1.667 + 1.333 = 3.0 ≤ 3. ✓</li><li>(20, 40): 0.833 + 2.667 = 3.5. ✗ (24, 36): 1 + 2.4 = 3.4. ✗ (30, 30): 1.25 + 2 = 3.25. ✗</li></ol>",
+      "why": [
+        "Correct. The total time is exactly 3.0 hours.",
+        "Total time is 20/24 + 40/15 ≈ 3.5 hours, which is more than 3.",
+        "Total time is 24/24 + 36/15 = 3.4 hours, which is more than 3.",
+        "Total time is 30/24 + 30/15 = 3.25 hours, which is more than 3."
+      ]
+    },
+    {
+      "n": 5,
+      "type": "grid",
+      "domain": "Algebra",
+      "skill": "Absolute value equations",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "prompt": "What is the sum of all values of <i>x</i> that satisfy the equation |2<i>x</i> − 7| = 3|<i>x</i> + 1| ?",
+      "nums": [
+        -9.2
+      ],
+      "display": "−9.2 (or −46/5)",
+      "explanation": "<ol class=\"steps\"><li>Two absolute values are equal when the expressions inside are equal or opposite. Case 1: 2<i>x</i> − 7 = 3(<i>x</i> + 1) gives 2<i>x</i> − 7 = 3<i>x</i> + 3, so <i>x</i> = −10.</li><li>Case 2: 2<i>x</i> − 7 = −3(<i>x</i> + 1) gives 2<i>x</i> − 7 = −3<i>x</i> − 3, so 5<i>x</i> = 4 and <i>x</i> = 0.8.</li><li>Check: <i>x</i> = −10 gives |−27| = 27 and 3|−9| = 27. ✓ <i>x</i> = 0.8 gives |−5.4| = 5.4 and 3|1.8| = 5.4. ✓</li><li>Sum = −10 + 0.8 = <b>−9.2</b>.</li></ol>",
+      "desmosTip": "Graph <i>y</i> = abs(2<i>x</i> − 7) and <i>y</i> = 3abs(<i>x</i> + 1). The two intersection points have <i>x</i>-values −10 and 0.8."
+    },
+    {
+      "n": 6,
+      "type": "grid",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "In the <i>xy</i>-plane, line ℓ passes through the point (2, −3) and is perpendicular to the line with equation 5<i>x</i> − 2<i>y</i> = 9. Line ℓ crosses the <i>y</i>-axis at the point (0, <i>b</i>). What is the value of <i>b</i>?",
+      "nums": [
+        -2.2
+      ],
+      "display": "−2.2 (or −11/5)",
+      "explanation": "<ol class=\"steps\"><li>Rewrite 5<i>x</i> − 2<i>y</i> = 9 as <i>y</i> = (5/2)<i>x</i> − 9/2, so its slope is 5/2.</li><li>A perpendicular line has slope −2/5.</li><li>ℓ: <i>y</i> = −(2/5)<i>x</i> + <i>b</i>. Substitute (2, −3): −3 = −4/5 + <i>b</i>.</li><li><i>b</i> = −3 + 4/5 = −11/5 = <b>−2.2</b>.</li></ol>"
+    },
+    {
+      "n": 7,
+      "domain": "Algebra",
+      "skill": "Systems of linear inequalities (optimisation)",
+      "difficulty": "HARD",
+      "targetSec": 130,
+      "prompt": "A workshop makes chairs and tables each week. Each chair needs 2 hours of labour and 3 kilograms of timber. Each table needs 5 hours of labour and 4 kilograms of timber. The workshop has at most 100 hours of labour and 108 kilograms of timber available each week. A chair earns a profit of 30 euros and a table earns a profit of 70 euros. If the workshop makes whole numbers of chairs and tables, what is the greatest possible weekly profit, in euros?",
+      "choices": [
+        "1,080",
+        "1,400",
+        "1,440",
+        "1,500"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li>Let <i>x</i> = chairs and <i>y</i> = tables. Constraints: 2<i>x</i> + 5<i>y</i> ≤ 100 (labour), 3<i>x</i> + 4<i>y</i> ≤ 108 (timber), <i>x</i>, <i>y</i> ≥ 0. Maximise 30<i>x</i> + 70<i>y</i>.</li><li>The maximum occurs at a corner of the feasible region. Corners: (0, 0), (36, 0), (0, 20), and the intersection of the two constraint lines.</li><li>Intersection: 2<i>x</i> + 5<i>y</i> = 100 and 3<i>x</i> + 4<i>y</i> = 108. Multiply the first by 3 and the second by 2: 6<i>x</i> + 15<i>y</i> = 300 and 6<i>x</i> + 8<i>y</i> = 216, so 7<i>y</i> = 84 and <i>y</i> = 12, <i>x</i> = 20. These are whole numbers.</li><li>Profits: (36, 0) → 1,080; (0, 20) → 1,400; (20, 12) → 600 + 840 = <b>1,440</b>.</li></ol>",
+      "why": [
+        "1,080 is the profit from making only chairs (36 chairs), which leaves labour unused.",
+        "1,400 is the profit from making only tables (20 tables). It is feasible but not the maximum.",
+        "Correct. Making 20 chairs and 12 tables uses exactly 100 hours and 108 kg and earns 1,440 euros.",
+        "1,500 would need 50 chairs (100 hours of labour), but 50 chairs need 150 kg of timber, which exceeds 108 kg."
+      ]
+    },
+    {
+      "n": 8,
+      "domain": "Algebra",
+      "skill": "Systems of linear equations",
+      "difficulty": "HARD",
+      "targetSec": 130,
+      "passage": "<p style=\"font-size:20px\"><i>kx</i> + 8<i>y</i> = 20<br>3<i>x</i> + (<i>k</i> − 10)<i>y</i> = −30</p>",
+      "prompt": "For which value of <i>k</i> does the system of equations above have no solution?",
+      "choices": [
+        "−2",
+        "4",
+        "10",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>A system of two lines has no solution when the lines are parallel but different. First find where the slopes match: <i>k</i>/3 = 8/(<i>k</i> − 10).</li><li>Cross-multiply: <i>k</i>(<i>k</i> − 10) = 24, so <i>k</i><sup>2</sup> − 10<i>k</i> − 24 = 0 and (<i>k</i> − 12)(<i>k</i> + 2) = 0. So <i>k</i> = 12 or <i>k</i> = −2.</li><li>Test <i>k</i> = −2: the equations are −2<i>x</i> + 8<i>y</i> = 20 and 3<i>x</i> − 12<i>y</i> = −30. Multiply the first by −1.5: 3<i>x</i> − 12<i>y</i> = −30. Same line, so infinitely many solutions.</li><li>Test <i>k</i> = 12: 12<i>x</i> + 8<i>y</i> = 20 and 3<i>x</i> + 2<i>y</i> = −30. Multiply the second by 4: 12<i>x</i> + 8<i>y</i> = −120, which contradicts 20. Parallel, so no solution.</li></ol>",
+      "why": [
+        "<i>k</i> = −2 makes the lines parallel, but they are the <b>same</b> line, so there are infinitely many solutions, not none.",
+        "For <i>k</i> = 4 the slopes are different (−4/8 and −3/(−6)), so the lines cross at exactly one point.",
+        "For <i>k</i> = 10 the second equation becomes 3<i>x</i> = −30, so <i>x</i> = −10 and <i>y</i> = 15. There is exactly one solution.",
+        "Correct. Parallel and distinct lines, so there is no solution."
+      ]
+    },
+    {
+      "n": 9,
+      "type": "grid",
+      "domain": "Algebra",
+      "skill": "Nonlinear systems and structure",
+      "difficulty": "HARD",
+      "targetSec": 130,
+      "prompt": "The sum of two positive numbers <i>x</i> and <i>y</i> is 16, and <span class=\"frac\"><span><i>x</i></span><span><i>y</i></span></span> + <span class=\"frac\"><span><i>y</i></span><span><i>x</i></span></span> = <span class=\"frac\"><span>34</span><span>15</span></span>. What is the value of <i>xy</i>?",
+      "nums": [
+        60
+      ],
+      "display": "60",
+      "explanation": "<ol class=\"steps\"><li>Combine the fractions: <i>x</i>/<i>y</i> + <i>y</i>/<i>x</i> = (<i>x</i><sup>2</sup> + <i>y</i><sup>2</sup>)/(<i>xy</i>).</li><li>Use (<i>x</i> + <i>y</i>)<sup>2</sup> = <i>x</i><sup>2</sup> + <i>y</i><sup>2</sup> + 2<i>xy</i>, so <i>x</i><sup>2</sup> + <i>y</i><sup>2</sup> = 256 − 2<i>xy</i>.</li><li>Let <i>p</i> = <i>xy</i>: (256 − 2<i>p</i>)/<i>p</i> = 34/15.</li><li>15(256 − 2<i>p</i>) = 34<i>p</i>, so 3,840 − 30<i>p</i> = 34<i>p</i>, so 64<i>p</i> = 3,840 and <i>p</i> = <b>60</b>.</li><li>Check: <i>x</i> = 6 and <i>y</i> = 10 give sum 16, product 60, and 6/10 + 10/6 = 34/15. ✓</li></ol>"
+    },
+    {
+      "n": 10,
+      "domain": "Advanced Math",
+      "skill": "Exponential functions",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "A bacterial culture’s population is modelled by <i>P</i>(<i>t</i>) = 500(1.6)<sup><i>t</i>/4</sup>, where <i>t</i> is the number of hours since the first measurement. According to the model, after how many hours will the population first be double its initial value, to the nearest tenth of an hour?",
+      "choices": [
+        "4.0",
+        "5.9",
+        "6.4",
+        "8.0"
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>Doubling means <i>P</i>(<i>t</i>) = 1,000, so 500(1.6)<sup><i>t</i>/4</sup> = 1,000 and (1.6)<sup><i>t</i>/4</sup> = 2.</li><li>Take logarithms: (<i>t</i>/4) ln 1.6 = ln 2, so <i>t</i> = 4 ln 2 ÷ ln 1.6.</li><li><i>t</i> = 4 × 0.6931 ÷ 0.4700 ≈ 5.899, which rounds to <b>5.9</b> hours.</li></ol>",
+      "desmosTip": "Graph <i>y</i> = 500(1.6)^(<i>x</i>/4) and <i>y</i> = 1000. Click the intersection to read <i>x</i> ≈ 5.899.",
+      "why": [
+        "At <i>t</i> = 4 the population is 500 × 1.6 = 800, which is a 60% increase, not a doubling.",
+        "Correct. (1.6)<sup>5.899/4</sup> = 2.",
+        "6.4 is 4 × 1.6. At <i>t</i> = 6.4 the population is about 1,061, not 1,000.",
+        "At <i>t</i> = 8 the population is 500(1.6)<sup>2</sup> = 1,280, which is more than double."
+      ]
+    },
+    {
+      "n": 11,
+      "domain": "Advanced Math",
+      "skill": "Polynomial remainder theorem",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "When <i>f</i>(<i>x</i>) = 2<i>x</i><sup>3</sup> + <i>ax</i><sup>2</sup> − 7<i>x</i> + 6 is divided by <i>x</i> + 2, the remainder is −8. What is the value of <i>a</i>?",
+      "choices": [
+        "−4",
+        "−3",
+        "−2",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>By the remainder theorem, the remainder when dividing by <i>x</i> + 2 is <i>f</i>(−2).</li><li><i>f</i>(−2) = 2(−8) + <i>a</i>(4) − 7(−2) + 6 = −16 + 4<i>a</i> + 14 + 6 = 4<i>a</i> + 4.</li><li>Set 4<i>a</i> + 4 = −8, so 4<i>a</i> = −12 and <i>a</i> = <b>−3</b>.</li></ol>",
+      "why": [
+        "This comes from evaluating <i>f</i>(2), which is the remainder for division by <i>x</i> − 2. For <i>x</i> + 2 you must use −2.",
+        "Correct. <i>f</i>(−2) = 4(−3) + 4 = −8.",
+        "With <i>a</i> = −2, <i>f</i>(−2) = 4(−2) + 4 = −4, not −8.",
+        "With <i>a</i> = 1, <i>f</i>(−2) = 4(1) + 4 = 8, not −8."
+      ]
+    },
+    {
+      "n": 12,
+      "domain": "Advanced Math",
+      "skill": "Equivalent rational expressions",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "For <i>x</i> &gt; 4, which expression is equivalent to <span class=\"frac\"><span><i>x</i><sup>2</sup> − 16</span><span><i>x</i><sup>2</sup> − 3<i>x</i> − 4</span></span> ÷ <span class=\"frac\"><span><i>x</i> + 4</span><span><i>x</i> + 1</span></span> ?",
+      "choices": [
+        "<i>x</i> − 4",
+        "<span class=\"frac\"><span><i>x</i> − 4</span><span><i>x</i> + 1</span></span>",
+        "<span class=\"frac\"><span><i>x</i> + 1</span><span><i>x</i> + 4</span></span>",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>Factor: <i>x</i><sup>2</sup> − 16 = (<i>x</i> − 4)(<i>x</i> + 4) and <i>x</i><sup>2</sup> − 3<i>x</i> − 4 = (<i>x</i> − 4)(<i>x</i> + 1).</li><li>The first fraction simplifies to (<i>x</i> + 4)/(<i>x</i> + 1), since the factor (<i>x</i> − 4) cancels (allowed because <i>x</i> &gt; 4).</li><li>Dividing by (<i>x</i> + 4)/(<i>x</i> + 1) means multiplying by its reciprocal: (<i>x</i> + 4)/(<i>x</i> + 1) × (<i>x</i> + 1)/(<i>x</i> + 4) = <b>1</b>.</li><li>Check with <i>x</i> = 6: (20/14) ÷ (10/7) = (10/7) ÷ (10/7) = 1. ✓</li></ol>",
+      "why": [
+        "At <i>x</i> = 6 the original expression equals 1, but this choice equals 2.",
+        "At <i>x</i> = 6 this choice equals 2/7, not 1.",
+        "At <i>x</i> = 6 this choice equals 7/10, not 1. It is what remains if the reciprocal is applied to only part of the expression.",
+        "Correct. After simplifying and using the reciprocal, everything cancels."
+      ]
+    },
+    {
+      "n": 13,
+      "domain": "Advanced Math",
+      "skill": "Quadratic functions and inequalities",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "Let <i>f</i>(<i>x</i>) = −(<i>x</i> + 1)<sup>2</sup> + 9. For how many integer values of <i>x</i> is <i>f</i>(<i>x</i>) &gt; 0?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li><i>f</i>(<i>x</i>) &gt; 0 means (<i>x</i> + 1)<sup>2</sup> &lt; 9, so −3 &lt; <i>x</i> + 1 &lt; 3.</li><li>Subtract 1: −4 &lt; <i>x</i> &lt; 2.</li><li>The integers strictly between −4 and 2 are −3, −2, −1, 0, 1, which is <b>5</b> values.</li></ol>",
+      "desmosTip": "Graph <i>y</i> = −(<i>x</i> + 1)^2 + 9 and count the integer <i>x</i>-values where the curve is above the <i>x</i>-axis.",
+      "why": [
+        "This undercounts. It misses two of the integers between −4 and 2.",
+        "This misses one of the five integers (−3, −2, −1, 0, 1).",
+        "Correct. −3, −2, −1, 0, 1.",
+        "This wrongly counts an endpoint. At <i>x</i> = −4 and at <i>x</i> = 2, <i>f</i>(<i>x</i>) = 0, which is not greater than 0."
+      ]
+    },
+    {
+      "n": 14,
+      "domain": "Advanced Math",
+      "skill": "Radical equations",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "prompt": "What is the sum of all real solutions of the equation <span class=\"sqrt\">√<span>3<i>x</i> + 7</span></span> − <i>x</i> = 1 ?",
+      "choices": [
+        "−2",
+        "1",
+        "3",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li>Isolate the radical: √(3<i>x</i> + 7) = <i>x</i> + 1.</li><li>Square both sides: 3<i>x</i> + 7 = <i>x</i><sup>2</sup> + 2<i>x</i> + 1, so <i>x</i><sup>2</sup> − <i>x</i> − 6 = 0 and (<i>x</i> − 3)(<i>x</i> + 2) = 0.</li><li>Check both candidates in the original equation. <i>x</i> = 3: √16 − 3 = 1. ✓ <i>x</i> = −2: √1 − (−2) = 3 ≠ 1. ✗ (the radical must equal <i>x</i> + 1 = −1, which is impossible).</li><li>Only <i>x</i> = 3 is a solution, so the sum is <b>3</b>.</li></ol>",
+      "desmosTip": "Graph <i>y</i> = sqrt(3<i>x</i> + 7) − <i>x</i> and <i>y</i> = 1. They intersect only at <i>x</i> = 3, showing that −2 is extraneous.",
+      "why": [
+        "−2 is an extraneous solution created by squaring. It does not satisfy the original equation.",
+        "1 is the sum of both roots of the squared equation (3 + (−2)). It includes the extraneous root.",
+        "Correct. Only <i>x</i> = 3 works, so the sum of all solutions is 3.",
+        "Nothing in the work produces 6. It would double the valid solution."
+      ]
+    },
+    {
+      "n": 15,
+      "type": "grid",
+      "domain": "Advanced Math",
+      "skill": "Systems of a line and a parabola",
+      "difficulty": "HARD",
+      "targetSec": 110,
+      "prompt": "In the <i>xy</i>-plane, the graph of <i>y</i> = 2<i>x</i><sup>2</sup> − 5<i>x</i> + 3 and the graph of <i>y</i> = 3<i>x</i> + <i>c</i>, where <i>c</i> is a constant, intersect at exactly one point. What is the value of <i>c</i>?",
+      "nums": [
+        -5
+      ],
+      "display": "−5",
+      "explanation": "<ol class=\"steps\"><li>Set the expressions equal: 2<i>x</i><sup>2</sup> − 5<i>x</i> + 3 = 3<i>x</i> + <i>c</i>, so 2<i>x</i><sup>2</sup> − 8<i>x</i> + (3 − <i>c</i>) = 0.</li><li>Exactly one intersection means the discriminant is 0: (−8)<sup>2</sup> − 4(2)(3 − <i>c</i>) = 0.</li><li>64 − 24 + 8<i>c</i> = 0, so 8<i>c</i> = −40 and <i>c</i> = <b>−5</b>.</li><li>Check: 2<i>x</i><sup>2</sup> − 8<i>x</i> + 8 = 2(<i>x</i> − 2)<sup>2</sup> = 0, so the single intersection is at <i>x</i> = 2. ✓</li></ol>",
+      "desmosTip": "Graph <i>y</i> = 2<i>x</i>^2 − 5<i>x</i> + 3 and <i>y</i> = 3<i>x</i> + <i>c</i>, then add a slider for <i>c</i>. The line just touches the parabola at <i>c</i> = −5."
+    },
+    {
+      "n": 16,
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Statistics: mean and outliers",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "A data set of 8 values is 12, 15, 15, 18, 20, 22, 25, and <i>x</i>. The mean of the data set is 20. If <i>x</i> is replaced with 45, by how much does the mean of the data set increase?",
+      "choices": [
+        "1.5",
+        "3",
+        "12",
+        "21.5"
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li>The seven known values sum to 12 + 15 + 15 + 18 + 20 + 22 + 25 = 127. A mean of 20 for 8 values means the total is 160, so <i>x</i> = 33.</li><li>Replacing 33 with 45 increases the total by 12, from 160 to 172.</li><li>The new mean is 172 ÷ 8 = 21.5. The increase is 21.5 − 20 = <b>1.5</b>. (Equivalently, 12 ÷ 8 = 1.5.)</li></ol>",
+      "why": [
+        "Correct. The total rises by 12 and it is spread over 8 values.",
+        "3 comes from dividing the change of 12 by 4 instead of 8.",
+        "12 is the change in the <i>total</i>, not in the mean.",
+        "21.5 is the new mean, not the increase."
+      ]
+    },
+    {
+      "n": 17,
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-way tables and conditional probability",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "passage": "<p>In a survey of 400 commuters, each person gave their main mode of travel to work. The table shows the results by age group.</p>",
+      "table": {
+        "caption": "Main mode of travel to work, by age group",
+        "headers": [
+          "Age group",
+          "Cycle",
+          "Bus",
+          "Car",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Under 30",
+            "64",
+            "52",
+            "24",
+            "140"
+          ],
+          [
+            "30–49",
+            "36",
+            "44",
+            "60",
+            "140"
+          ],
+          [
+            "50 and over",
+            "20",
+            "34",
+            "66",
+            "120"
+          ],
+          [
+            "Total",
+            "120",
+            "130",
+            "150",
+            "400"
+          ]
+        ]
+      },
+      "prompt": "One participant is selected at random from those who do <b>not</b> travel to work by car. What is the probability that the participant is under 30?",
+      "choices": [
+        "<span class=\"frac\"><span>116</span><span>250</span></span>",
+        "<span class=\"frac\"><span>116</span><span>400</span></span>",
+        "<span class=\"frac\"><span>116</span><span>140</span></span>",
+        "<span class=\"frac\"><span>140</span><span>250</span></span>"
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li>Those who do not use a car: 120 (cycle) + 130 (bus) = 250. This is the new sample space.</li><li>Of these, the under-30 participants: 64 + 52 = 116.</li><li>Probability = 116/250 = 58/125 = 0.464.</li></ol>",
+      "why": [
+        "Correct. 116 of the 250 non-car commuters are under 30.",
+        "This divides by all 400 commuters, ignoring the condition that the person does not travel by car.",
+        "This is the probability of not using a car <i>given</i> under 30, with the condition reversed.",
+        "This uses all 140 under-30 commuters, including the 24 who use a car, as the numerator."
+      ]
+    },
+    {
+      "n": 18,
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference and margin of error",
+      "difficulty": "MEDIUM",
+      "targetSec": 75,
+      "prompt": "A researcher surveyed a random sample of 240 residents of a city with 90,000 residents. In the sample, 35% owned a bicycle. The margin of error for this estimate was 6 percentage points at a 95% confidence level. Which conclusion is best supported by these results?",
+      "choices": [
+        "Exactly 35% of the city’s residents own a bicycle.",
+        "Between 29% and 41% of the 240 sampled residents own a bicycle.",
+        "The survey proves that at least 95% of the city’s residents own a bicycle within 6% of the sample result.",
+        "It is plausible that between 29% and 41% of all the city’s residents own a bicycle."
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>The margin of error describes how far the <i>population</i> percentage could plausibly be from the sample percentage.</li><li>35% ± 6 percentage points gives the interval 29% to 41%.</li><li>The interval applies to the whole city, not to the sample, and it expresses plausibility, not certainty.</li></ol>",
+      "why": [
+        "A sample estimate is not an exact population value. The margin of error shows the uncertainty.",
+        "The sample itself is known exactly: 35% of the 240 sampled residents. The interval is for the city, not the sample.",
+        "This garbles the meaning of the confidence level and claims a proof, but statistics cannot prove this.",
+        "Correct. The interval 29% to 41% describes plausible values for the whole city."
+      ]
+    },
+    {
+      "n": 19,
+      "type": "grid",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Linear models and residuals",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "prompt": "A shop owner models daily sales <i>y</i> (units) against midday temperature <i>x</i> (°C) with the line of best fit <i>ŷ</i> = 12.5<i>x</i> − 110. On a day when the temperature was 26 °C, the shop actually sold 231 units. The model’s prediction fell short of the actual sales. By what percent of the actual sales did it fall short? Round your answer to the nearest tenth of a percent.",
+      "nums": [
+        6.9
+      ],
+      "tol": 0.001,
+      "display": "6.9",
+      "explanation": "<ol class=\"steps\"><li>Predicted sales at 26 °C: 12.5(26) − 110 = 325 − 110 = 215 units.</li><li>Shortfall: 231 − 215 = 16 units.</li><li>As a percent of the <b>actual</b> sales: 16 ÷ 231 ≈ 0.0693 = 6.93%, which rounds to <b>6.9</b>.</li></ol>",
+      "desmosTip": "Type 16/231*100 directly into an expression line to read 6.926…."
+    },
+    {
+      "n": 20,
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles in the coordinate plane",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "prompt": "The equation of a circle in the <i>xy</i>-plane is <i>x</i><sup>2</sup> + <i>y</i><sup>2</sup> − 10<i>x</i> + 4<i>y</i> + 13 = 0. What is the greatest <i>y</i>-coordinate of any point on the circle?",
+      "choices": [
+        "−6",
+        "−2",
+        "2",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li>Complete the square: (<i>x</i><sup>2</sup> − 10<i>x</i> + 25) + (<i>y</i><sup>2</sup> + 4<i>y</i> + 4) = −13 + 25 + 4.</li><li>(<i>x</i> − 5)<sup>2</sup> + (<i>y</i> + 2)<sup>2</sup> = 16. The centre is (5, −2) and the radius is 4.</li><li>The highest point is directly above the centre: <i>y</i> = −2 + 4 = <b>2</b>.</li></ol>",
+      "why": [
+        "−6 is the <i>lowest</i> point of the circle, −2 − 4.",
+        "−2 is the <i>y</i>-coordinate of the centre, not the highest point.",
+        "Correct. Centre <i>y</i> plus the radius: −2 + 4 = 2.",
+        "4 is the radius. The highest <i>y</i> is the centre’s <i>y</i> plus the radius."
+      ]
+    },
+    {
+      "n": 21,
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangle trigonometry",
+      "difficulty": "MEDIUM",
+      "targetSec": 95,
+      "passage": "<svg class=\"fig\" viewBox=\"0 0 220 215\" role=\"img\" aria-label=\"Right triangle ABC with right angle at C. Point D lies on the hypotenuse AB and CD is perpendicular to AB.\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M30 190 L30 30 L150 30 Z\"/><path d=\"M30 30 L106.8 87.6\"/><path d=\"M42 30 V42 H30\" stroke-width=\"1.5\"/><path d=\"M112.8 79.6 L104.8 73.6 L98.8 81.6\" stroke-width=\"1.5\"/></g><text x=\"10\" y=\"202\">A</text><text x=\"156\" y=\"36\">B</text><text x=\"12\" y=\"26\">C</text><text x=\"112\" y=\"104\">D</text></svg>",
+      "prompt": "In the figure, triangle <i>ABC</i> has a right angle at <i>C</i>, tan <i>A</i> = <span class=\"frac\"><span>3</span><span>4</span></span>, and <i>AB</i> = 25 metres. Point <i>D</i> lies on <i>AB</i> so that <i>CD</i> is perpendicular to <i>AB</i>. What is the length, in metres, of <i>CD</i>?",
+      "choices": [
+        "9",
+        "12",
+        "15",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>tan <i>A</i> = <i>BC</i>/<i>AC</i> = 3/4, so the triangle is similar to a 3-4-5 triangle. With hypotenuse 25 (five times 5), <i>BC</i> = 15 and <i>AC</i> = 20.</li><li>Area of the triangle = ½ × <i>AC</i> × <i>BC</i> = ½ × 20 × 15 = 150 m<sup>2</sup>.</li><li>The same area equals ½ × <i>AB</i> × <i>CD</i> = ½ × 25 × <i>CD</i>. So 12.5 <i>CD</i> = 150 and <i>CD</i> = <b>12</b>.</li></ol>",
+      "why": [
+        "9 is the length of <i>BD</i> (= <i>BC</i><sup>2</sup>/<i>AB</i> = 225/25), not of <i>CD</i>.",
+        "Correct. <i>CD</i> = (<i>AC</i> × <i>BC</i>)/<i>AB</i> = 300/25 = 12.",
+        "15 is the length of side <i>BC</i>, not the altitude to the hypotenuse.",
+        "16 is the length of <i>AD</i> (= <i>AC</i><sup>2</sup>/<i>AB</i> = 400/25), not of <i>CD</i>."
+      ]
+    },
+    {
+      "n": 22,
+      "domain": "Geometry and Trigonometry",
+      "skill": "Volume of solids",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "prompt": "A solid metal sphere with radius 6 centimetres is melted and recast, with no loss of metal, into a solid right circular cone with base radius 4 centimetres. What is the height, in centimetres, of the cone?",
+      "choices": [
+        "13.5",
+        "18",
+        "27",
+        "54"
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>Volume of the sphere = <sup>4</sup>⁄<sub>3</sub>π(6)<sup>3</sup> = <sup>4</sup>⁄<sub>3</sub>π(216) = 288π cm<sup>3</sup>.</li><li>Volume of the cone = <sup>1</sup>⁄<sub>3</sub>π(4)<sup>2</sup><i>h</i> = <sup>16</sup>⁄<sub>3</sub>π<i>h</i>.</li><li>Set them equal: <sup>16</sup>⁄<sub>3</sub><i>h</i> = 288, so <i>h</i> = 288 × 3 ÷ 16 = <b>54</b> cm.</li></ol>",
+      "why": [
+        "13.5 comes from using the base <i>diameter</i> (8) as the radius of the cone.",
+        "18 comes from forgetting the factor <sup>1</sup>⁄<sub>3</sub> in the cone’s volume formula: 288π = 16π<i>h</i>.",
+        "27 comes from using the sphere’s surface area 4π<i>r</i><sup>2</sup> = 144π instead of its volume.",
+        "Correct. Equal volumes give <i>h</i> = 54 cm."
+      ]
+    }
+  ]
+}

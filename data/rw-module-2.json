@@ -1,0 +1,580 @@
+{
+  "id": "rw2",
+  "section": "Reading and Writing",
+  "module": 2,
+  "title": "Reading and Writing · Module 2",
+  "minutes": 32,
+  "questions": [
+    {
+      "n": 1,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "HARD",
+      "targetSec": 65,
+      "passage": "<p>Although the mayor’s speech was widely praised for its eloquence, the urban planner Kofi Mensah found its promises ______: every commitment was worded so loosely that no future outcome could be counted as a failure to keep it.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": ["exorbitant", "audacious", "equivocal", "sanguine"],
+      "answer": 2,
+      "explanation": "The colon introduces the explanation: each commitment was worded loosely enough that any outcome could be defended. Promises open to more than one interpretation are equivocal.",
+      "why": [
+        "“Exorbitant” means excessive, usually of a price or demand. Loosely worded promises are not excessive.",
+        "“Audacious” means bold. Vague commitments are the opposite of bold ones, since nothing is risked.",
+        "Correct. “Equivocal” means open to more than one interpretation, which is why no outcome could count as a broken promise.",
+        "“Sanguine” means optimistic. The planner’s complaint is about vagueness, not about optimism."
+      ]
+    },
+    {
+      "n": 2,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "MEDIUM",
+      "targetSec": 60,
+      "intl": "Near-synonym connotation (impartial vs. apathetic)",
+      "passage": "<p>The botanist’s tone in her letter was scrupulously ______: she neither praised nor condemned her rival’s hypothesis, reporting only which of its predictions the field data had and had not borne out.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": ["impartial", "apathetic", "ambivalent", "evasive"],
+      "answer": 0,
+      "explanation": "She takes no side and simply reports the evidence, which describes an impartial tone. The other words all describe a neutral-looking attitude but carry a different meaning.",
+      "why": [
+        "Correct. “Impartial” means not favouring either side, matching “neither praised nor condemned.”",
+        "“Apathetic” means lacking interest or concern. Careful reporting of which predictions held shows she cared about the result. Learners often treat “neutral” and “uninterested” as synonyms.",
+        "“Ambivalent” means torn between conflicting feelings. Nothing suggests she has mixed feelings.",
+        "“Evasive” means avoiding a direct answer. She reports specific results directly."
+      ]
+    },
+    {
+      "n": 3,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "HARD",
+      "targetSec": 75,
+      "passage": "<p>Critics have called the project’s environmental review ______ on the question that matters most: although the document runs to nine hundred pages, it treats the likely loss of downstream fisheries in a single paragraph.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": ["exhaustive", "prescient", "indiscriminate", "perfunctory"],
+      "answer": 3,
+      "explanation": "“Although” sets up a contrast between the review’s length and its treatment of the key issue. Dealing with the most consequential effect in one paragraph is a token, minimal effort, which is what perfunctory means.",
+      "why": [
+        "“Exhaustive” means thorough. Length might suggest it, but a single paragraph on the key issue is not thorough.",
+        "“Prescient” means accurately foreseeing the future. The passage does not concern whether the review predicted anything.",
+        "“Indiscriminate” means not selective. The length tempts you to choose it, but the criticism is about too little attention to the most important effect, not about a lack of selectivity.",
+        "Correct. “Perfunctory” means carried out with minimal effort, matching a single paragraph on the most consequential effect."
+      ]
+    },
+    {
+      "n": 4,
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "passage": "<p>In the opening stanzas of Halima Idrissi’s poem “Ferry Timetable,” the speaker catalogues the departures of a Mediterranean ferry with bureaucratic precision: 06:40, 09:15, 13:50. The tone is so flat that a reader might mistake the poem for a found document. Only in the final stanza does the register break, when the speaker mentions that the 13:50 sailing is the one on which her brother left and did not return. Read again in that light, the earlier listing of times becomes an act of restraint, a grief held in check by the very form that seems to exclude it.</p>",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        "To argue that the poem’s formal restraint is a failure to express emotion",
+        "To explain how the poem’s flat opening takes on emotional significance once its final stanza is understood",
+        "To compare the poem with official documents such as ferry timetables",
+        "To criticize readers who mistake the poem for a found document"
+      ],
+      "answer": 1,
+      "explanation": "The text describes the flat opening, notes the break in the final stanza, and then explains that the opening “becomes an act of restraint” in retrospect. Its purpose is to show how the meaning of the opening changes.",
+      "why": [
+        "The text says the restraint is meaningful (“grief held in check”), not a failure.",
+        "Correct. The passage traces how the opening is reinterpreted after the final stanza.",
+        "The timetable form is mentioned, but the text does not compare the poem with real documents.",
+        "The reader’s possible mistake is noted neutrally. The text does not criticize anyone."
+      ]
+    },
+    {
+      "n": 5,
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "passage": "<p><strong>Text 1</strong></p><p>The economist Daniela Ortiz argues that fully remote working depresses innovation. Analyzing patent filings from 300 firms, she found that firms that moved to fully remote operations filed 8 percent fewer patents over the following two years than comparable firms that did not, and she attributes the gap to the loss of spontaneous exchanges among engineers who no longer share a workplace.</p><p><strong>Text 2</strong></p><p>The organizational researcher Thabo Nkosi observes that Ortiz’s comparison group consisted mainly of firms in sectors where most staff already lived near company campuses. The firms that went fully remote were therefore disproportionately those whose staff were being relocated or reduced. If so, the fall in patents may reflect disruption caused by restructuring rather than remoteness itself.</p>",
+      "prompt": "Based on the texts, how would Nkosi (Text 2) most likely characterize Ortiz’s explanation for the decline in patents (Text 1)?",
+      "choices": [
+        "As accurate but incomplete, because it overlooks the effect of remote work on team size",
+        "As insufficiently supported, because the firms compared may have differed in ways that could account for the decline",
+        "As correct about the cause but wrong about how large the effect was",
+        "As irrelevant, because patent filings are a poor measure of innovation"
+      ],
+      "answer": 1,
+      "explanation": "Nkosi does not dispute the 8 percent gap. He argues that the firms differed in another important way (restructuring), so the gap may not be caused by remoteness. That makes Ortiz’s explanation insufficiently supported.",
+      "why": [
+        "Nkosi does not mention team size, and he does not call the explanation accurate.",
+        "Correct. Nkosi points to a difference between the groups (restructuring) that could explain the decline.",
+        "Nkosi does not accept the cause, and he does not discuss the size of the effect.",
+        "Nkosi never questions patents as a measure. His objection concerns how the firms were compared."
+      ]
+    },
+    {
+      "n": 6,
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "difficulty": "HARD",
+      "targetSec": 85,
+      "passage": "<p>When the astronomer Mei-Ling Zhao’s team examined light from a distant galaxy cluster, they expected the sharp brightening and steady fade of a typical supernova. <u>Instead they recorded a slow, symmetrical rise in brightness followed by an equally slow decline, a signature that no existing model of stellar explosion predicts.</u> Zhao cautions that the observation was made with a single instrument and may yet prove to be an artefact. If it is confirmed, however, it would imply that at least one kind of stellar death proceeds by a mechanism astronomers have not yet described.</p>",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        "It presents an unexpected observation that prompts the discussion of what the finding could mean.",
+        "It describes the method by which the team ruled out an instrument error.",
+        "It defines a technical term that the rest of the text relies on.",
+        "It rebuts the caution Zhao expresses in the following sentence."
+      ],
+      "answer": 0,
+      "explanation": "The sentence reports what the team actually saw (“Instead …”), which contradicts their expectation. The rest of the text then discusses the caution about the result and its possible implications.",
+      "why": [
+        "Correct. The unexpected observation is the basis for the caution and the implication that follow.",
+        "The text says the instrument error has not been ruled out, so no such method is described.",
+        "No term is defined in the sentence.",
+        "The caution follows the sentence and is not rebutted by it. The next sentence expresses doubt about the observation."
+      ]
+    },
+    {
+      "n": 7,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "difficulty": "MEDIUM",
+      "targetSec": 60,
+      "passage": "<p>Because her data came from only two coastal villages, the anthropologist was ______ about extending her conclusions to the whole region, hedging each claim with an explicit note on its limits.</p>",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": ["credulous", "dogmatic", "blithe", "circumspect"],
+      "answer": 3,
+      "explanation": "She hedges every claim and states its limits, which describes careful consideration of the risks of overgeneralizing. That is what circumspect means.",
+      "why": [
+        "“Credulous” means too ready to believe things. Hedging every claim shows the opposite.",
+        "“Dogmatic” means asserting opinions as certain. She qualifies each claim.",
+        "“Blithe” means casually unconcerned. She is clearly concerned about the limits of her data.",
+        "Correct. “Circumspect” means cautious and mindful of possible consequences."
+      ]
+    },
+    {
+      "n": 8,
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "passage": "<p>Historians of the Silk Roads once emphasized caravans carrying luxury goods across thousands of kilometres. Recent work by Ilyas Bekov on customs registers from markets around Samarkand suggests a different picture: the great majority of recorded transactions involved bulk goods such as grain, salt, and timber moving fewer than 200 kilometres. Long-distance luxuries, though vivid in travellers’ accounts, made up only a small share of trade by volume. Bekov does not deny their cultural influence; he argues only that a picture of the routes built from luxuries alone mistakes the memorable for the typical.</p>",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        "Luxury goods carried along the Silk Roads had little cultural influence.",
+        "Customs registers are more reliable than travellers’ accounts for every historical question.",
+        "Bekov’s analysis of market records suggests that everyday regional trade in bulk goods, rather than long-distance luxuries, made up most Silk Road commerce.",
+        "Travellers in the region tended to exaggerate the distances that caravans covered."
+      ],
+      "answer": 2,
+      "explanation": "The text sets the older emphasis on luxuries against Bekov’s finding that short-distance bulk trade dominated by volume. Choice C states this without overstating it.",
+      "why": [
+        "The text says Bekov “does not deny their cultural influence.”",
+        "The text says nothing about registers being more reliable in general.",
+        "Correct. This matches Bekov’s finding and its contrast with the earlier view.",
+        "Travellers’ accounts are called vivid, not exaggerated, and distances are not disputed."
+      ]
+    },
+    {
+      "n": 9,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence (Quantitative)",
+      "difficulty": "HARD",
+      "targetSec": 100,
+      "passage": "<p>A transport analyst claims that cities that added more protected cycle lanes saw larger gains in cycling’s share of commutes, but that adding lanes did not by itself guarantee a high share, because starting conditions also mattered.</p>",
+      "table": {
+        "caption": "Protected cycle lanes added and bicycle share of commutes in four cities",
+        "headers": ["City", "Protected lanes added, 2015–2022 (km)", "Bicycle share of commutes, 2015 (%)", "Bicycle share of commutes, 2022 (%)"],
+        "rows": [
+          ["City P", "84", "6", "14"],
+          ["City Q", "61", "3", "7"],
+          ["City R", "22", "7", "9"],
+          ["City S", "9", "8", "8"]
+        ]
+      },
+      "prompt": "Which choice most effectively uses data from the table to support the analyst’s claim?",
+      "choices": [
+        "City P added the most protected lanes (84 km), and its bicycle share more than doubled, from 6 percent to 14 percent.",
+        "Bicycle share rose in every city between 2015 and 2022.",
+        "City S, which added the fewest protected lanes, was the only city in which bicycle share fell.",
+        "City Q added nearly three times as many kilometres of protected lanes as City R (61 versus 22) and gained more in bicycle share (4 versus 2 percentage points), yet City R’s 2022 share (9 percent) was still higher than City Q’s (7 percent)."
+      ],
+      "answer": 3,
+      "explanation": "The claim has two parts: more lanes means a larger gain, and lanes alone do not guarantee a high share. Only choice D covers both, using the comparison of City Q and City R.",
+      "why": [
+        "The figures are accurate (6 to 14 is more than double) but support only the first part of the claim.",
+        "False. City S stayed at 8 percent.",
+        "False. City S’s share did not fall; it stayed at 8 percent.",
+        "Correct. 61 km is nearly three times 22 km; gains were +4 and +2 percentage points; and 2022 shares were 7 and 9 percent. This shows both parts of the claim."
+      ]
+    },
+    {
+      "n": 10,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence (Textual)",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "passage": "<p>The marine biologist Leila Haddad proposes that the bold yellow stripes of a small reef fish, the ember goby, warn predators that the fish tastes unpleasant, a strategy known as warning colouration. Under this proposal, predators that have sampled ember gobies should learn to avoid them.</p>",
+      "prompt": "Which finding, if true, would most directly undermine Haddad’s proposal?",
+      "choices": [
+        "Predatory fish that had previously eaten ember gobies attacked them just as often as fish that had never encountered them did, and swallowed them without apparent distress.",
+        "Ember gobies are more abundant on reefs that have fewer predatory fish.",
+        "The yellow stripes of ember gobies are brighter during the breeding season than at other times of year.",
+        "Several other reef fish with similar yellow stripes also taste unpleasant to predators."
+      ],
+      "answer": 0,
+      "explanation": "The proposal predicts that predators with experience of ember gobies will avoid them. If experienced predators attack just as often and show no distaste, the prediction fails.",
+      "why": [
+        "Correct. It directly contradicts the prediction that experience leads to avoidance.",
+        "Abundance patterns could have many causes and do not test whether the stripes warn predators.",
+        "Seasonal brightness is unrelated to whether predators learn to avoid the fish.",
+        "This would, if anything, fit a warning-colouration strategy shared among species. It does not undermine the proposal."
+      ]
+    },
+    {
+      "n": 11,
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "difficulty": "HARD",
+      "targetSec": 90,
+      "passage": "<p>The hydrologist Priya Nair observes that in the tributaries of a mountain river, dry-season flow is closely proportional to the area of glacier upstream, whereas wet-season flow shows no relationship to glacier area because monsoon rain dominates. Glacier area across the basin has shrunk by about a fifth over thirty years. On the basis of Nair’s observation, it is most reasonable to infer that over those thirty years ______</p>",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        "wet-season flow has fallen by roughly a fifth.",
+        "dry-season flow has probably fallen, while wet-season flow may have been unaffected by glacier loss.",
+        "neither dry-season nor wet-season flow has changed.",
+        "dry-season flow has risen because shrinking glaciers release more meltwater."
+      ],
+      "answer": 1,
+      "explanation": "Dry-season flow tracks glacier area, so a smaller glacier area implies lower dry-season flow. Wet-season flow is unrelated to glacier area, so glacier loss gives no reason to expect a change in it.",
+      "why": [
+        "Wet-season flow is unrelated to glacier area, so there is no basis for a fifth fall.",
+        "Correct. The proportionality supports a fall in dry-season flow, and the lack of relationship means wet-season flow may be unaffected.",
+        "Dry-season flow is proportional to glacier area, so a fifth less glacier makes “no change” unlikely.",
+        "The passage gives no support for a rise. Dry-season flow is proportional to glacier area, which has shrunk."
+      ]
+    },
+    {
+      "n": 12,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence (Textual)",
+      "difficulty": "HARD",
+      "targetSec": 85,
+      "passage": "<p>A student is analyzing Cheng Yao’s short story “The Lamp Repairer.” The student claims that the protagonist, Wen, measures his self-worth by whether his skills are useful to others rather than by whether others recognize him.</p>",
+      "prompt": "Which quotation from the story most effectively illustrates the student’s claim?",
+      "choices": [
+        "“The neighbours nodded to him in the market, and he nodded back, as one does.”",
+        "“When the shop closed, Wen went on mending broken lamps at his kitchen table, though no one came to collect them.”",
+        "“Wen did not care that the mayor had praised him at the festival; what troubled him was that three lamps still sat unmended on his bench when the evening ended.”",
+        "“At the festival the mayor praised him by name, and Wen studied his shoes.”"
+      ],
+      "answer": 2,
+      "explanation": "The claim has two parts: usefulness matters to Wen, and recognition does not. Only choice C shows both: he does not care about the mayor’s praise, and he is troubled by unmended lamps that could be of use.",
+      "why": [
+        "Shows an ordinary social exchange and says nothing about Wen’s sense of worth.",
+        "Shows Wen mending lamps, but no one collects them, so it does not show that he values being useful to others.",
+        "Correct. Recognition (the mayor’s praise) does not matter to him; unfinished, useful work troubles him.",
+        "Shows discomfort with recognition but says nothing about usefulness."
+      ]
+    },
+    {
+      "n": 13,
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "difficulty": "EASY",
+      "targetSec": 75,
+      "passage": "<p>When the astronomer Yusuf al-Rami built an observatory at Tarsalan in 1481, he equipped it with instruments more precise than any then available in Europe. Yet the building was demolished within three years. Chroniclers blamed religious hostility toward astronomy, and later historians repeated the explanation. Nuran Aydin’s reading of the court documents suggests a more mundane cause: the observatory had been founded under the patronage of a single sultan, and when a plague and a military defeat emptied the treasury and shifted courtly favour to that sultan’s rivals, the institution lost its protector. On this account, the observatory fell not because its work was condemned but because its patron’s influence had waned.</p>",
+      "prompt": "According to the text, what does Aydin’s reading of the court documents suggest about the destruction of the observatory?",
+      "choices": [
+        "It resulted from religious objections to astronomy voiced at court.",
+        "It occurred because the observatory’s instruments proved less accurate than those in Europe.",
+        "It followed the decline in influence of the sultan who had sponsored the observatory.",
+        "It was ordered to raise funds for the treasury after the plague."
+      ],
+      "answer": 2,
+      "explanation": "The text says the observatory “lost its protector” when the sultan’s influence waned, and that it fell “not because its work was condemned.”",
+      "why": [
+        "This is the older explanation that Aydin’s reading replaces.",
+        "The instruments are described as more precise than European ones.",
+        "Correct. The sponsor’s waning influence is Aydin’s proposed cause.",
+        "The plague drained the treasury, but the text does not say the demolition was meant to raise funds."
+      ]
+    },
+    {
+      "n": 14,
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "difficulty": "MEDIUM",
+      "targetSec": 85,
+      "passage": "<p>In a study of 2,400 university students, those who took handwritten notes scored higher on conceptual questions than those who typed notes on laptops, although the two groups performed equally well on questions of factual recall. The researchers propose that handwriting is slower, which forces students to summarize a lecture rather than transcribe it, and that summarizing deepens understanding. If the researchers’ proposal is correct, a laptop user who wanted to close the gap on conceptual questions would most likely benefit from ______</p>",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        "putting each idea into their own words instead of typing what the lecturer says word for word.",
+        "typing faster so that more of the lecture is captured.",
+        "switching off the laptop’s notifications during the lecture.",
+        "studying the notes again immediately after the lecture."
+      ],
+      "answer": 0,
+      "explanation": "The proposed mechanism is summarizing rather than transcribing. A typist who deliberately paraphrases would reproduce that mechanism.",
+      "why": [
+        "Correct. Paraphrasing imitates the effect that slower handwriting is proposed to cause.",
+        "Typing faster would increase transcription, which is the opposite of what the proposal recommends.",
+        "Notifications are not part of the proposed mechanism.",
+        "Re-studying may help in general, but the proposal is about how notes are made, not how they are reviewed."
+      ]
+    },
+    {
+      "n": 15,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "difficulty": "MEDIUM",
+      "targetSec": 40,
+      "passage": "<p>The expedition’s three objectives were ambitious ______ to map the glacier’s retreat since 1990, to sample the meltwater lake beneath its tongue, and to test whether the drilling equipment could operate at −40 degrees Celsius.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": ["ambitious,", "ambitious;", "ambitious and", "ambitious:"],
+      "answer": 3,
+      "explanation": "The words before the blank form a complete sentence, and what follows is a list that specifies the “three objectives.” A colon correctly introduces such a list.",
+      "why": [
+        "A comma cannot join a complete sentence to a list that explains it; this creates a splice.",
+        "A semicolon must join two independent clauses. The list is not one.",
+        "“And” makes the infinitive list ungrammatical (“ambitious and to map …”).",
+        "Correct. A colon follows an independent clause and introduces the list that explains it."
+      ]
+    },
+    {
+      "n": 16,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "MEDIUM",
+      "targetSec": 35,
+      "intl": "Preposition collocation (conducive to)",
+      "passage": "<p>Rapid urbanization is not necessarily conducive ______ the preservation of local languages, since children in dense cities tend to adopt the dominant regional tongue.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": ["for", "to", "with", "of"],
+      "answer": 1,
+      "explanation": "The adjective “conducive” is always followed by “to” (conducive to something).",
+      "why": [
+        "“Conducive for” is a common learner error. The fixed collocation is “conducive to.”",
+        "Correct. “Conducive to” is the standard idiom.",
+        "“Conducive with” is not a standard construction.",
+        "“Conducive of” is not idiomatic in modern English."
+      ]
+    },
+    {
+      "n": 17,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "difficulty": "MEDIUM",
+      "targetSec": 45,
+      "passage": "<p>Field teams were sent to Almaty, Kazakhstan ______ Tbilisi, Georgia; and Yerevan, Armenia, where they interviewed residents about household water use.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": ["Kazakhstan;", "Kazakhstan,", "Kazakhstan:", "Kazakhstan and"],
+      "answer": 0,
+      "explanation": "Each item in the series (city, country) already contains a comma. When items contain internal commas, semicolons separate them, as in the later “Tbilisi, Georgia; and Yerevan, Armenia.”",
+      "why": [
+        "Correct. A semicolon separates list items that contain commas.",
+        "A comma would make it unclear where one city ends and the next begins and is inconsistent with the later semicolon.",
+        "A colon is not used between items in a series.",
+        "“And” here, together with the later “; and,” would create an inconsistent series."
+      ]
+    },
+    {
+      "n": 18,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "EASY",
+      "targetSec": 30,
+      "intl": "Countable vs. uncountable quantity words (number/amount)",
+      "passage": "<p>Although the trial enrolled a larger ______ of participants than earlier studies did, the amount of data collected from each participant was smaller.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": ["amount", "quantity", "number", "portion"],
+      "answer": 2,
+      "explanation": "“Participants” are countable, so the quantity noun that fits is “number.” “Amount” is used for uncountable things such as “data,” which is why the sentence uses it later.",
+      "why": [
+        "“Amount” is for uncountable quantities. People are counted, so “amount of participants” is incorrect.",
+        "“Quantity” is used mainly for uncountable or measured amounts and reads awkwardly with people.",
+        "Correct. “Number” is used with countable plural nouns.",
+        "“Portion” means a part of a whole and does not fit “a larger ___ of participants.”"
+      ]
+    },
+    {
+      "n": 19,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "MEDIUM",
+      "targetSec": 40,
+      "passage": "<p>The archive holds several manuscripts ______ authenticity scholars have long disputed.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": ["who", "that", "which", "whose"],
+      "answer": 3,
+      "explanation": "The blank must link “manuscripts” to “authenticity” with a possessive meaning (the manuscripts’ authenticity). “Whose” does this and can refer to things as well as people.",
+      "why": [
+        "“Who” refers to people and is not possessive.",
+        "“That” cannot show possession, so “that authenticity” leaves the sentence without a link between the two nouns.",
+        "“Which” is not possessive. “Of which” would be needed.",
+        "Correct. “Whose authenticity” means “the manuscripts’ authenticity.”"
+      ]
+    },
+    {
+      "n": 20,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "difficulty": "MEDIUM",
+      "targetSec": 35,
+      "intl": "Unnecessary punctuation after a verb",
+      "passage": "<p>The laboratory’s three main instruments include ______ a mass spectrometer, a confocal microscope, and a cryostat.</p>",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": ["include:", "include", "include,", "include;"],
+      "answer": 1,
+      "explanation": "A list that completes the verb (“include …”) needs no punctuation between the verb and its objects. A colon, comma, or semicolon there would separate the verb from what it governs.",
+      "why": [
+        "A colon must follow a complete sentence. “Instruments include” is not one.",
+        "Correct. No punctuation is needed between the verb and its objects.",
+        "A comma would separate the verb from its objects.",
+        "A semicolon must join independent clauses and cannot follow a verb."
+      ]
+    },
+    {
+      "n": 21,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "difficulty": "MEDIUM",
+      "targetSec": 55,
+      "passage": "<p>Early reviewers praised the film’s cinematography but found its plot thin. ______ the film has since attracted a devoted audience, many of whom cite the very sparseness of the plot as the source of its appeal.</p>",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": ["Even so,", "For this reason,", "Similarly,", "In other words,"],
+      "answer": 0,
+      "explanation": "The second sentence describes a positive outcome that survives the early criticism, so it needs a concessive transition.",
+      "why": [
+        "Correct. “Even so” acknowledges the criticism and introduces a contrasting outcome.",
+        "“For this reason” would mean the thin plot caused the audience, which the text does not say.",
+        "“Similarly” signals a parallel, but the sentences contrast.",
+        "“In other words” would restate the first sentence, which the second does not do."
+      ]
+    },
+    {
+      "n": 22,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "difficulty": "HARD",
+      "targetSec": 65,
+      "passage": "<p>Proponents of the four-day working week point to trials in which output held steady while absences fell. Critics reply that such trials attract firms that were already inclined to succeed. ______ the strongest evidence would come from randomly assigning firms to the shorter schedule, an experiment few governments have been willing to fund.</p>",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": ["By contrast,", "Similarly,", "Instead,", "Either way,"],
+      "answer": 3,
+      "explanation": "The sentence states a conclusion that holds whichever side is right, since random assignment would settle the dispute. “Either way” expresses that.",
+      "why": [
+        "“By contrast” implies the sentence opposes the critics, but it applies to both sides.",
+        "“Similarly” signals a parallel point, not a conclusion covering both views.",
+        "“Instead” would present the experiment as a replacement for something just mentioned.",
+        "Correct. Whichever side is right, random assignment gives the strongest evidence."
+      ]
+    },
+    {
+      "n": 23,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "difficulty": "MEDIUM",
+      "targetSec": 50,
+      "intl": "“On the contrary” vs. “By contrast”",
+      "passage": "<p>Residents of the northern district are mostly employed in fishing. ______ residents of the southern district work mainly in tourism.</p>",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": ["Consequently,", "By contrast,", "On the contrary,", "Accordingly,"],
+      "answer": 1,
+      "explanation": "The two sentences compare two groups that differ. “By contrast” marks the difference. “On the contrary” is used to reject a claim that was just made, which does not happen here.",
+      "why": [
+        "“Consequently” signals a result, but southern employment is not caused by northern employment.",
+        "Correct. “By contrast” introduces a comparison between two different cases.",
+        "“On the contrary” denies a previous statement. Nothing is being denied, so it is a frequent learner error here.",
+        "“Accordingly” signals a result or consequence, which is not the relationship."
+      ]
+    },
+    {
+      "n": 24,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "MEDIUM",
+      "targetSec": 75,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li>The Andean Seed Institute compared two methods of storing seed.</li><li>Seed stored in sealed clay jars retained 91 percent germination after ten years.</li><li>Seed stored in paper bags retained 34 percent germination after ten years.</li><li>Storage in jars cost about three times as much per kilogram of seed as storage in bags.</li></ul>",
+      "prompt": "The student wants to emphasize the trade-off between cost and seed viability. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "After ten years, seed stored in sealed clay jars retained 91 percent germination, compared with 34 percent for seed stored in paper bags.",
+        "Because paper bags were cheaper, they were the better choice for storing seed for ten years.",
+        "Although storage in sealed clay jars cost about three times as much per kilogram of seed as storage in paper bags, seed kept in jars retained 91 percent germination after ten years, compared with 34 percent for seed kept in bags.",
+        "Sealed clay jars kept seed viable for three times as long as paper bags did."
+      ],
+      "answer": 2,
+      "explanation": "A trade-off requires both sides: the higher cost and the better viability. Only choice C states both accurately.",
+      "why": [
+        "Gives only the viability results and omits cost, so no trade-off appears.",
+        "Unsupported. The notes do not say bags were better, and their viability was much lower.",
+        "Correct. States the higher cost of jars and the higher germination they achieved.",
+        "Misuses the cost ratio as a duration. The notes do not say jars kept seed viable three times as long."
+      ]
+    },
+    {
+      "n": 25,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "MEDIUM",
+      "targetSec": 75,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li><i>Salt and Iron</i> (2018) is a novel by the Ghanaian writer Abena Osei.</li><li>The novel follows three generations of a family of salt traders.</li><li>It won the 2019 Halloran Prize for fiction.</li><li>Critics have praised its use of shifting narrators.</li></ul>",
+      "prompt": "The student wants to introduce the novel to readers who are unfamiliar with it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "<i>Salt and Iron</i> (2018), a novel by the Ghanaian writer Abena Osei, follows three generations of a family of salt traders and won the 2019 Halloran Prize for fiction.",
+        "Critics have praised Abena Osei’s use of shifting narrators.",
+        "Praised for its shifting narrators, Abena Osei’s <i>Salt and Iron</i> is widely regarded as the finest African novel of its decade.",
+        "The Halloran Prize, awarded in 2019, is among the most prestigious literary awards in the world."
+      ],
+      "answer": 0,
+      "explanation": "An introduction should identify the work, its author, and what it is about, and may add a mark of recognition. Choice A does this and stays within the notes.",
+      "why": [
+        "Correct. Gives the title, date, author, subject, and a prize, all from the notes.",
+        "Mentions praise only and does not identify the novel or what it is about.",
+        "“Widely regarded as the finest African novel of its decade” is not in the notes.",
+        "The prize’s prestige is not in the notes, and the sentence does not mention the novel."
+      ]
+    },
+    {
+      "n": 26,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "HARD",
+      "targetSec": 85,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li>A study tracked 5,200 pupils in 40 schools taking part in a national free school-meal programme.</li><li>Attendance rose by an average of 2.1 percentage points in participating schools.</li><li>Test scores showed no statistically significant change.</li><li>The study lasted one academic year.</li></ul>",
+      "prompt": "The student wants to summarize the study’s findings while noting a limit on what the study can show. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "The free school-meal programme improved pupils’ learning by raising attendance by 2.1 percent.",
+        "In a study of 5,200 pupils, a free school-meal programme raised attendance by an average of 2.1 percentage points but left test scores unchanged.",
+        "In a one-year study of 5,200 pupils, a free school-meal programme raised attendance by an average of 2.1 percentage points but produced no statistically significant change in test scores, so longer-term effects remain unknown.",
+        "Attendance rose by 2.1 percent in 40 schools, and test scores were unaffected."
+      ],
+      "answer": 2,
+      "explanation": "The goal requires the findings (attendance up, scores unchanged) and a limit on the study. The one-year duration is that limit, and choice C uses it while correctly saying “percentage points.”",
+      "why": [
+        "Claims improved learning, which the test scores contradict, and confuses 2.1 percentage points with 2.1 percent.",
+        "States the findings but gives no limit, and “left test scores unchanged” overstates “no statistically significant change.”",
+        "Correct. Accurate findings, correct unit, and the one-year duration as a limit.",
+        "Uses “percent” instead of “percentage points,” omits the limit, and overstates “unaffected.”"
+      ]
+    },
+    {
+      "n": 27,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "HARD",
+      "targetSec": 85,
+      "passage": "<p>While researching a topic, a student has taken the following notes:</p><ul><li>In 2022, researchers reported a new sodium-based battery electrode.</li><li>The electrode retained 90 percent of its capacity after 5,000 charge cycles.</li><li>Sodium is far more abundant and widely distributed than lithium.</li><li>The prototype has been tested only in small laboratory cells.</li></ul>",
+      "prompt": "The student wants to explain why the discovery is promising while acknowledging that it is preliminary. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        "The new sodium-based electrode will soon replace lithium in batteries because sodium is more abundant.",
+        "A 2022 sodium-based electrode that retained 90 percent of its capacity after 5,000 charge cycles is promising because sodium is far more abundant than lithium, although the prototype has so far been tested only in small laboratory cells.",
+        "Researchers reported in 2022 that a sodium-based electrode retained 90 percent of its capacity after 5,000 charge cycles.",
+        "Because the prototype has been tested only in small laboratory cells, sodium-based electrodes are unlikely to be useful."
+      ],
+      "answer": 1,
+      "explanation": "The goal has two parts: why it is promising (durability and abundant sodium) and why it is preliminary (small laboratory cells). Only choice B provides both without overstating.",
+      "why": [
+        "“Will soon replace” is not supported and ignores that the work is preliminary.",
+        "Correct. Gives the durability result, the abundance of sodium, and the limitation of small-scale testing.",
+        "States the result only and gives no reason it is promising beyond the figure, and no acknowledgment that it is preliminary.",
+        "Overreaches: limited testing does not show that the electrodes are unlikely to be useful."
+      ]
+    }
+  ]
+}

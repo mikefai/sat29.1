@@ -1,0 +1,477 @@
+{
+  "id": "m2",
+  "section": "Math",
+  "module": 2,
+  "title": "Math · Module 2",
+  "minutes": 35,
+  "rich": true,
+  "questions": [
+    {
+      "n": 1,
+      "domain": "Algebra",
+      "skill": "Linear functions (modelling)",
+      "difficulty": "EASY",
+      "targetSec": 55,
+      "prompt": "A survey drone descends at a constant rate. At <i>t</i> = 12 seconds its altitude is 90 metres, and at <i>t</i> = 20 seconds its altitude is 62 metres. Which equation gives the drone’s altitude <i>a</i>, in metres, <i>t</i> seconds after the start?",
+      "choices": [
+        "<i>a</i> = −3.5<i>t</i> + 90",
+        "<i>a</i> = −28<i>t</i> + 426",
+        "<i>a</i> = −3.5<i>t</i> + 62",
+        "<i>a</i> = −3.5<i>t</i> + 132"
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>Rate of change = (62 − 90) ÷ (20 − 12) = −28 ÷ 8 = −3.5 metres per second.</li><li>Use <i>a</i> = −3.5<i>t</i> + <i>b</i> with the point (12, 90): 90 = −3.5(12) + <i>b</i> = −42 + <i>b</i>, so <i>b</i> = 132.</li><li><i>a</i> = −3.5<i>t</i> + 132. Check at <i>t</i> = 20: −70 + 132 = 62. ✓</li></ol>",
+      "why": [
+        "This uses the altitude at 12 seconds as the starting altitude. At <i>t</i> = 0 the altitude is 132 metres, not 90.",
+        "This uses the total change in altitude (−28 m) as the rate. The rate must be divided by the 8 seconds elapsed.",
+        "This uses the altitude at 20 seconds as the starting altitude, which is not the altitude at <i>t</i> = 0.",
+        "Correct. The slope is −3.5 and the intercept is 132."
+      ]
+    },
+    {
+      "n": 2,
+      "domain": "Algebra",
+      "skill": "Compound inequalities and absolute value",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "prompt": "How many integers <i>x</i> satisfy both |<i>x</i> − 4| ≤ 3 and 2<i>x</i> + 1 &gt; 5 ?",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>|<i>x</i> − 4| ≤ 3 means −3 ≤ <i>x</i> − 4 ≤ 3, so 1 ≤ <i>x</i> ≤ 7.</li><li>2<i>x</i> + 1 &gt; 5 means 2<i>x</i> &gt; 4, so <i>x</i> &gt; 2.</li><li>Both hold when 2 &lt; <i>x</i> ≤ 7. The integers are 3, 4, 5, 6, 7, which is <b>5</b> integers.</li></ol>",
+      "why": [
+        "This drops one of the integers 3 to 7. Note that <i>x</i> = 7 is included because the first inequality is “≤”.",
+        "Correct. 3, 4, 5, 6, 7.",
+        "This includes <i>x</i> = 2, but 2(2) + 1 = 5 is not greater than 5.",
+        "This counts all integers from 1 to 7 and ignores the second inequality."
+      ]
+    },
+    {
+      "n": 3,
+      "type": "grid",
+      "domain": "Algebra",
+      "skill": "Systems of equations by substitution",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "prompt": "The numbers <i>a</i>, <i>b</i>, and <i>c</i> satisfy <i>a</i> + <i>b</i> + <i>c</i> = 30, <i>a</i> = 2<i>b</i> − 3, and <i>c</i> = <i>a</i> − 4. What is the value of <i>ac</i>?",
+      "nums": [
+        117
+      ],
+      "display": "117",
+      "explanation": "<ol class=\"steps\"><li>Write everything in terms of <i>b</i>: <i>a</i> = 2<i>b</i> − 3 and <i>c</i> = <i>a</i> − 4 = 2<i>b</i> − 7.</li><li>Substitute into the sum: (2<i>b</i> − 3) + <i>b</i> + (2<i>b</i> − 7) = 30, so 5<i>b</i> − 10 = 30 and <i>b</i> = 8.</li><li><i>a</i> = 13 and <i>c</i> = 9. Check: 13 + 8 + 9 = 30. ✓</li><li><i>ac</i> = 13 × 9 = <b>117</b>.</li></ol>"
+    },
+    {
+      "n": 4,
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "prompt": "In the <i>xy</i>-plane, a line has an <i>x</i>-intercept at (−6, 0) and passes through the point (3, 5). Which equation represents the line?",
+      "choices": [
+        "5<i>x</i> − 9<i>y</i> = −30",
+        "9<i>x</i> − 5<i>y</i> = −54",
+        "5<i>x</i> + 9<i>y</i> = −30",
+        "5<i>x</i> − 9<i>y</i> = 30"
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li>Slope = (5 − 0) ÷ (3 − (−6)) = 5/9.</li><li>Point-slope form through (−6, 0): <i>y</i> = (5/9)(<i>x</i> + 6).</li><li>Multiply by 9: 9<i>y</i> = 5<i>x</i> + 30, so 5<i>x</i> − 9<i>y</i> = −30.</li><li>Check (3, 5): 15 − 45 = −30. ✓</li></ol>",
+      "why": [
+        "Correct. Both (−6, 0) and (3, 5) satisfy it.",
+        "This uses the reciprocal slope 9/5. It passes through (−6, 0) but not (3, 5): 27 − 25 = 2, not −54.",
+        "This has a sign error. It passes through (−6, 0) but at (3, 5) gives 15 + 45 = 60, not −30.",
+        "This has its intercept at (6, 0), not (−6, 0)."
+      ]
+    },
+    {
+      "n": 5,
+      "type": "grid",
+      "domain": "Algebra",
+      "skill": "Rate problems",
+      "difficulty": "MEDIUM",
+      "targetSec": 90,
+      "prompt": "Pipe A can fill an empty tank in 6 hours, and pipe B can fill it in 9 hours. A drain C, working alone, can empty a full tank in 18 hours. If A, B, and C are all open at the same time, how many hours will it take to fill the empty tank?",
+      "nums": [
+        4.5
+      ],
+      "display": "4.5 (or 9/2)",
+      "explanation": "<ol class=\"steps\"><li>Work in fractions of the tank per hour. A fills 1/6, B fills 1/9, and C removes 1/18.</li><li>Combined rate = 1/6 + 1/9 − 1/18 = 3/18 + 2/18 − 1/18 = 4/18 = 2/9 of the tank per hour.</li><li>Time = 1 ÷ (2/9) = 9/2 = <b>4.5</b> hours.</li></ol>"
+    },
+    {
+      "n": 6,
+      "domain": "Algebra",
+      "skill": "Inverse of a linear function",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "prompt": "The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = <span class=\"frac\"><span>2<i>x</i> − 5</span><span>3</span></span> + 1. What is the value of <i>x</i> for which <i>f</i>(<i>x</i>) = 7 ?",
+      "choices": [
+        "4",
+        "6.5",
+        "11.5",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li>Set (2<i>x</i> − 5)/3 + 1 = 7.</li><li>Subtract 1: (2<i>x</i> − 5)/3 = 6.</li><li>Multiply by 3: 2<i>x</i> − 5 = 18, so 2<i>x</i> = 23 and <i>x</i> = <b>11.5</b>.</li></ol>",
+      "why": [
+        "This is <i>f</i>(7), the output when the <i>input</i> is 7. The question gives the output 7 and asks for the input.",
+        "This comes from a sign error, 2<i>x</i> + 5 = 18, giving <i>x</i> = 6.5.",
+        "Correct. <i>f</i>(11.5) = 18/3 + 1 = 7.",
+        "This forgets to subtract the +1 first: (2<i>x</i> − 5)/3 = 7 gives <i>x</i> = 13."
+      ]
+    },
+    {
+      "n": 7,
+      "domain": "Algebra",
+      "skill": "Mixture and weighted averages",
+      "difficulty": "MEDIUM",
+      "targetSec": 90,
+      "prompt": "A café blends Arabica coffee that costs 18 euros per kilogram with Robusta coffee that costs 11 euros per kilogram. The café makes 35 kilograms of blend that is worth 15 euros per kilogram. How many kilograms of Arabica are in the blend?",
+      "choices": [
+        "15",
+        "20",
+        "21",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>Let <i>a</i> = kg of Arabica. Then Robusta is 35 − <i>a</i> kg.</li><li>Total cost: 18<i>a</i> + 11(35 − <i>a</i>) = 15(35) = 525.</li><li>18<i>a</i> + 385 − 11<i>a</i> = 525, so 7<i>a</i> = 140 and <i>a</i> = <b>20</b>.</li><li>Check: 20(18) + 15(11) = 360 + 165 = 525. ✓</li></ol>",
+      "why": [
+        "With 15 kg Arabica the total cost is 15(18) + 20(11) = 490, not 525.",
+        "Correct. Total cost is 360 + 165 = 525.",
+        "With 21 kg Arabica the total cost is 21(18) + 14(11) = 532, not 525.",
+        "With 25 kg Arabica the total cost is 25(18) + 10(11) = 560, not 525."
+      ]
+    },
+    {
+      "n": 8,
+      "type": "grid",
+      "domain": "Algebra",
+      "skill": "Systems of linear equations",
+      "difficulty": "MEDIUM",
+      "targetSec": 100,
+      "prompt": "The ordered pair (<i>x</i>, <i>y</i>) is the solution to the system 2<i>x</i> + 3<i>y</i> = 19 and 5<i>x</i> − 2<i>y</i> = 0. What is the value of <span class=\"frac\"><span><i>x</i> + <i>y</i></span><span><i>x</i> − <i>y</i></span></span> ?",
+      "nums": [
+        -2.3333333333
+      ],
+      "tol": 0.0006,
+      "display": "−7/3 (or −2.333)",
+      "explanation": "<ol class=\"steps\"><li>From 5<i>x</i> − 2<i>y</i> = 0, <i>y</i> = 2.5<i>x</i>.</li><li>Substitute into the first equation: 2<i>x</i> + 3(2.5<i>x</i>) = 19, so 9.5<i>x</i> = 19 and <i>x</i> = 2, <i>y</i> = 5.</li><li>Check: 2(2) + 3(5) = 19 ✓ and 5(2) − 2(5) = 0 ✓.</li><li>(<i>x</i> + <i>y</i>)/(<i>x</i> − <i>y</i>) = 7/(−3) = <b>−7/3</b>, which is −2.333 as a decimal.</li></ol>"
+    },
+    {
+      "n": 9,
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "EASY",
+      "targetSec": 65,
+      "prompt": "Which expression is equivalent to (2<i>x</i> − 3)<sup>2</sup> − (<i>x</i> + 4)(<i>x</i> − 4) ?",
+      "choices": [
+        "3<i>x</i><sup>2</sup> + 25",
+        "5<i>x</i><sup>2</sup> − 12<i>x</i> − 7",
+        "3<i>x</i><sup>2</sup> − 12<i>x</i> − 7",
+        "3<i>x</i><sup>2</sup> − 12<i>x</i> + 25"
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>(2<i>x</i> − 3)<sup>2</sup> = 4<i>x</i><sup>2</sup> − 12<i>x</i> + 9.</li><li>(<i>x</i> + 4)(<i>x</i> − 4) = <i>x</i><sup>2</sup> − 16.</li><li>Subtract the whole second expression: 4<i>x</i><sup>2</sup> − 12<i>x</i> + 9 − <i>x</i><sup>2</sup> + 16 = 3<i>x</i><sup>2</sup> − 12<i>x</i> + 25.</li></ol>",
+      "why": [
+        "This drops the middle term of the square, treating (2<i>x</i> − 3)<sup>2</sup> as 4<i>x</i><sup>2</sup> + 9.",
+        "This adds the second product instead of subtracting it.",
+        "This subtracts <i>x</i><sup>2</sup> but forgets that subtracting −16 gives +16.",
+        "Correct. Subtracting −16 gives +16, so the constant is 9 + 16 = 25."
+      ]
+    },
+    {
+      "n": 10,
+      "multi": true,
+      "domain": "Advanced Math",
+      "skill": "Exponential versus linear growth",
+      "difficulty": "HARD",
+      "targetSec": 115,
+      "prompt": "Town A’s population is modelled by <i>A</i>(<i>t</i>) = 800(1.12)<sup><i>t</i></sup> and Town B’s population by <i>B</i>(<i>t</i>) = 3,000 + 150<i>t</i>, where <i>t</i> is the number of whole years since the start of the year 2000. According to the models, in which year does Town A’s population first exceed Town B’s?",
+      "choices": [
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li>We need the smallest whole number <i>t</i> with 800(1.12)<sup><i>t</i></sup> &gt; 3,000 + 150<i>t</i>. This cannot be solved by ordinary algebra, so compare values or use a graph.</li><li><i>t</i> = 16: <i>A</i> ≈ 4,904 and <i>B</i> = 5,400. <i>A</i> is smaller.</li><li><i>t</i> = 17: <i>A</i> ≈ 5,493 and <i>B</i> = 5,550. <i>A</i> is still smaller (by only about 57).</li><li><i>t</i> = 18: <i>A</i> ≈ 6,152 and <i>B</i> = 5,700. <i>A</i> is now larger.</li><li>So the first year is <i>t</i> = 18, which is the year 2000 + 18 = <b>2018</b>.</li></ol>",
+      "desmosTip": "Graph <i>y</i> = 800(1.12)^<i>x</i> and <i>y</i> = 3000 + 150<i>x</i>. The curves cross at <i>x</i> ≈ 17.2, so the first <b>whole</b> year with <i>A</i> larger is 18. Use a table for the two functions to check <i>t</i> = 17 and 18.",
+      "why": [
+        "In 2016 (<i>t</i> = 16), <i>A</i> ≈ 4,904 is well below <i>B</i> = 5,400.",
+        "In 2017 (<i>t</i> = 17), <i>A</i> ≈ 5,493 is still below <i>B</i> = 5,550. The graphs cross just after this year.",
+        "Correct. In 2018, <i>A</i> ≈ 6,152 first exceeds <i>B</i> = 5,700.",
+        "By 2019 <i>A</i> ≈ 6,890 already exceeds <i>B</i> = 5,850, but 2018 is the <b>first</b> year."
+      ]
+    },
+    {
+      "n": 11,
+      "multi": true,
+      "type": "grid",
+      "domain": "Advanced Math",
+      "skill": "Polynomial roots",
+      "difficulty": "HARD",
+      "targetSec": 135,
+      "prompt": "Let <i>f</i>(<i>x</i>) = <i>x</i><sup>3</sup> − 6<i>x</i><sup>2</sup> + 5<i>x</i> + 12. The equation <i>f</i>(<i>x</i>) = 10 has three real solutions. What is the sum of the squares of these three solutions?",
+      "nums": [
+        26
+      ],
+      "tol": 0.05,
+      "display": "26",
+      "explanation": "<ol class=\"steps\"><li><i>f</i>(<i>x</i>) = 10 is the same as <i>x</i><sup>3</sup> − 6<i>x</i><sup>2</sup> + 5<i>x</i> + 2 = 0. Call its solutions <i>p</i>, <i>q</i>, <i>r</i>.</li><li><b>Algebraic route (Vieta’s formulas):</b> for <i>x</i><sup>3</sup> + <i>bx</i><sup>2</sup> + <i>cx</i> + <i>d</i> = 0, the sum of solutions is −<i>b</i> = 6, and the sum of pairwise products is <i>c</i> = 5.</li><li>Use <i>p</i><sup>2</sup> + <i>q</i><sup>2</sup> + <i>r</i><sup>2</sup> = (<i>p</i> + <i>q</i> + <i>r</i>)<sup>2</sup> − 2(<i>pq</i> + <i>pr</i> + <i>qr</i>) = 36 − 10 = <b>26</b>.</li><li><b>Numerical route:</b> the solutions are about −0.2924, 1.3973, and 4.8951. Their squares are about 0.0855 + 1.9525 + 23.962 ≈ 26.0.</li></ol>",
+      "desmosTip": "Graph <i>y</i> = <i>x</i>^3 − 6<i>x</i>^2 + 5<i>x</i> + 12 and <i>y</i> = 10. Click the three intersection points to read <i>x</i> ≈ −0.292, 1.397, 4.895. Then type (−0.2924)^2 + (1.3973)^2 + (4.8951)^2 into an expression line. Any answer within 0.05 of 26 is accepted."
+    },
+    {
+      "n": 12,
+      "domain": "Advanced Math",
+      "skill": "Quadratic functions",
+      "difficulty": "MEDIUM",
+      "targetSec": 90,
+      "prompt": "The quadratic function <i>f</i> is defined by <i>f</i>(<i>x</i>) = <i>a</i>(<i>x</i> − 2)(<i>x</i> + 6), where <i>a</i> is a constant. The graph of <i>y</i> = <i>f</i>(<i>x</i>) passes through the point (0, −36). What is the minimum value of <i>f</i>?",
+      "choices": [
+        "−48",
+        "−36",
+        "−12",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li><i>f</i>(0) = <i>a</i>(−2)(6) = −12<i>a</i> = −36, so <i>a</i> = 3. The parabola opens upward, so it has a minimum.</li><li>The <i>x</i>-intercepts are 2 and −6, so the vertex has <i>x</i> = (2 + (−6))/2 = −2.</li><li><i>f</i>(−2) = 3(−4)(4) = <b>−48</b>.</li></ol>",
+      "why": [
+        "Correct. The minimum value is <i>f</i>(−2) = −48.",
+        "−36 is the <i>y</i>-intercept, <i>f</i>(0), not the minimum.",
+        "−12 is the <i>y</i>-intercept you would get if <i>a</i> were 1. It ignores the given point (0, −36) and is not the minimum.",
+        "12 would be the <i>y</i>-intercept if <i>a</i> were −1, and then the parabola would open downward and have no minimum. Here <i>a</i> = 3."
+      ]
+    },
+    {
+      "n": 13,
+      "type": "grid",
+      "domain": "Advanced Math",
+      "skill": "Exponential models",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "prompt": "A vehicle loses 15% of its value each year. After 3 years its value is 24,565 euros. What was the vehicle’s original value, in euros?",
+      "nums": [
+        40000
+      ],
+      "display": "40000",
+      "explanation": "<ol class=\"steps\"><li>Each year the value is multiplied by 0.85. After 3 years: <i>V</i> = <i>V</i><sub>0</sub>(0.85)<sup>3</sup>.</li><li>(0.85)<sup>3</sup> = 0.614125.</li><li><i>V</i><sub>0</sub> = 24,565 ÷ 0.614125 = <b>40,000</b> euros.</li><li>Check: 40,000 × 0.614125 = 24,565. ✓</li></ol>",
+      "desmosTip": "Type 24565/0.85^3 into an expression line to read 40000."
+    },
+    {
+      "n": 14,
+      "domain": "Advanced Math",
+      "skill": "Rational equations",
+      "difficulty": "HARD",
+      "targetSec": 115,
+      "prompt": "What is the solution to the equation <span class=\"frac\"><span><i>x</i></span><span><i>x</i> − 2</span></span> + <span class=\"frac\"><span>3</span><span><i>x</i> + 2</span></span> = <span class=\"frac\"><span>8</span><span><i>x</i><sup>2</sup> − 4</span></span> ?",
+      "choices": [
+        "−7",
+        "−2",
+        "2",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li>Factor the denominator: <i>x</i><sup>2</sup> − 4 = (<i>x</i> − 2)(<i>x</i> + 2). The common denominator is (<i>x</i> − 2)(<i>x</i> + 2), and <i>x</i> cannot be 2 or −2.</li><li>Multiply through: <i>x</i>(<i>x</i> + 2) + 3(<i>x</i> − 2) = 8.</li><li><i>x</i><sup>2</sup> + 2<i>x</i> + 3<i>x</i> − 6 = 8, so <i>x</i><sup>2</sup> + 5<i>x</i> − 14 = 0 and (<i>x</i> + 7)(<i>x</i> − 2) = 0.</li><li>The candidates are −7 and 2. But <i>x</i> = 2 makes two denominators zero, so it is extraneous. The only solution is <b>−7</b>.</li></ol>",
+      "why": [
+        "Correct. Checking: −7/(−9) + 3/(−5) = 7/9 − 3/5 = 8/45, and 8/(49 − 4) = 8/45. ✓",
+        "<i>x</i> = −2 makes the denominators <i>x</i> + 2 and <i>x</i><sup>2</sup> − 4 zero, so it is not allowed. It is not a root of the quadratic anyway.",
+        "<i>x</i> = 2 is a root of the cleared equation but is extraneous, because it makes <i>x</i> − 2 and <i>x</i><sup>2</sup> − 4 zero.",
+        "7 does not satisfy the cleared equation: 49 + 35 − 14 ≠ 0."
+      ]
+    },
+    {
+      "n": 15,
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Statistics: effect of an outlier",
+      "difficulty": "MEDIUM",
+      "targetSec": 90,
+      "prompt": "Data set A is 4, 6, 8, 10, 12. Data set B is 4, 6, 8, 10, 12, 30, which is set A with the value 30 added. Which statement is true?",
+      "choices": [
+        "The median of B is greater than the mean of B.",
+        "Adding 30 increases the mean by more than it increases the median.",
+        "The standard deviation of B is less than the standard deviation of A.",
+        "The range of B is the same as the range of A."
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>Set A: mean = 40/5 = 8, median = 8, range = 12 − 4 = 8.</li><li>Set B: mean = 70/6 ≈ 11.67, median = (8 + 10)/2 = 9, range = 30 − 4 = 26.</li><li>The mean increases by about 3.67 while the median increases by only 1, so the mean is affected more by the added extreme value.</li><li>The other statements fail: the median (9) is less than the mean (11.67); the spread grows, so the standard deviation increases; and the range grows from 8 to 26.</li></ol>",
+      "why": [
+        "The median of B is 9 and its mean is about 11.67, so the median is less than the mean.",
+        "Correct. The mean rises about 3.67 and the median rises 1.",
+        "Adding a value far from the rest makes the data more spread out, so the standard deviation increases.",
+        "The range increases from 8 to 26."
+      ]
+    },
+    {
+      "n": 16,
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability without replacement",
+      "difficulty": "MEDIUM",
+      "targetSec": 100,
+      "prompt": "A bag contains 5 red, 4 blue, and 3 green marbles that are identical except for colour. Two marbles are drawn at random without replacement. What is the probability that both marbles are the same colour?",
+      "choices": [
+        "<span class=\"frac\"><span>25</span><span>72</span></span>",
+        "<span class=\"frac\"><span>1</span><span>3</span></span>",
+        "<span class=\"frac\"><span>19</span><span>144</span></span>",
+        "<span class=\"frac\"><span>19</span><span>66</span></span>"
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>There are 12 marbles, so the number of ways to choose 2 is 12 × 11 ÷ 2 = 66.</li><li>Same-colour pairs: red 5 × 4 ÷ 2 = 10, blue 4 × 3 ÷ 2 = 6, green 3 × 2 ÷ 2 = 3. Total 19.</li><li>Probability = 19/66 ≈ 0.288.</li><li>Check with sequential draws: (5/12)(4/11) + (4/12)(3/11) + (3/12)(2/11) = (20 + 12 + 6)/132 = 38/132 = 19/66. ✓</li></ol>",
+      "why": [
+        "25/72 is the probability if the first marble is <b>replaced</b>: (25 + 16 + 9)/144. The question says without replacement.",
+        "1/3 is a rounded guess. The exact probability is 19/66 ≈ 0.288.",
+        "19/144 puts the without-replacement count of pairs (19) over the with-replacement total (144).",
+        "Correct. 19 favourable pairs out of 66."
+      ]
+    },
+    {
+      "n": 17,
+      "multi": true,
+      "type": "grid",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Quadratic models from data",
+      "difficulty": "HARD",
+      "targetSec": 135,
+      "passage": "<p>A quadratic function of the form <i>y</i> = <i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i> fits the data in the table exactly.</p>",
+      "table": {
+        "caption": "Measured values of y at five values of x",
+        "headers": [
+          "x",
+          "0",
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "rows": [
+          [
+            "y",
+            "8",
+            "4",
+            "4",
+            "8",
+            "16"
+          ]
+        ]
+      },
+      "prompt": "According to the model, what is the value of <i>y</i> when <i>x</i> = 11 ?",
+      "nums": [
+        35.5
+      ],
+      "display": "35.5 (or 71/2)",
+      "explanation": "<ol class=\"steps\"><li>Use three data points to find <i>a</i>, <i>b</i>, <i>c</i>. From (0, 8): <i>c</i> = 8.</li><li>From (2, 4): 4<i>a</i> + 2<i>b</i> + 8 = 4, so 2<i>a</i> + <i>b</i> = −2.</li><li>From (4, 4): 16<i>a</i> + 4<i>b</i> + 8 = 4, so 4<i>a</i> + <i>b</i> = −1.</li><li>Subtract: 2<i>a</i> = 1, so <i>a</i> = 0.5 and <i>b</i> = −3. The model is <i>y</i> = 0.5<i>x</i><sup>2</sup> − 3<i>x</i> + 8.</li><li>Check with (8, 16): 32 − 24 + 8 = 16. ✓</li><li>At <i>x</i> = 11: 0.5(121) − 33 + 8 = 60.5 − 33 + 8 = <b>35.5</b>.</li></ol>",
+      "desmosTip": "Enter the table into Desmos (type <i>x</i><sub>1</sub> and <i>y</i><sub>1</sub> lists, for example [0,2,4,6,8] and [8,4,4,8,16]) and then <i>y</i><sub>1</sub> ~ <i>a</i><i>x</i><sub>1</sub>^2 + <i>b</i><i>x</i><sub>1</sub> + <i>c</i>. Desmos returns <i>a</i> = 0.5, <i>b</i> = −3, <i>c</i> = 8 with zero error. Then evaluate at <i>x</i> = 11."
+    },
+    {
+      "n": 18,
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Study design and inference",
+      "difficulty": "MEDIUM",
+      "targetSec": 80,
+      "prompt": "A researcher selected a random sample of 500 adult residents of a city and recorded how many hours each slept per night and their score on a memory test. Adults who slept more than 8 hours scored higher, on average, than those who slept 8 hours or less. Which conclusion is best supported by this study?",
+      "choices": [
+        "Among adult residents of this city, more sleep is associated with higher memory scores, but the study does not show that sleep causes the difference.",
+        "Sleeping more than 8 hours causes higher memory scores in all adults.",
+        "Among all adults in the world, those who sleep more than 8 hours score higher on memory tests.",
+        "Adults in the sample who slept 8 hours or less would have scored higher if they had slept longer."
+      ],
+      "answer": 0,
+      "explanation": "<ol class=\"steps\"><li>Two design features decide what can be concluded. The sample was <b>random</b> from the city’s adult residents, so results can be generalized to that population.</li><li>Sleep hours were only <b>observed</b>, not randomly assigned, so the study shows an association, not cause and effect.</li><li>Only the first choice respects both limits.</li></ol>",
+      "why": [
+        "Correct. Random sampling allows generalization to the city’s adults. No random assignment means no causal claim.",
+        "This makes a causal claim, which needs random assignment of sleep, and generalizes beyond the city.",
+        "This generalizes to all adults worldwide, but the sample came only from one city.",
+        "This is a causal claim about what would have happened. Only random assignment could support it."
+      ]
+    },
+    {
+      "n": 19,
+      "domain": "Geometry and Trigonometry",
+      "skill": "Similar triangles",
+      "difficulty": "EASY",
+      "targetSec": 70,
+      "prompt": "In triangle <i>ABC</i>, point <i>D</i> lies on <i>AB</i> and point <i>E</i> lies on <i>AC</i> so that <i>DE</i> is parallel to <i>BC</i>. <i>AD</i> = 6 cm, <i>DB</i> = 4 cm, and <i>DE</i> = 9 cm. What is the length, in centimetres, of <i>BC</i>?",
+      "choices": [
+        "6",
+        "13",
+        "15",
+        "22.5"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li>Since <i>DE</i> ∥ <i>BC</i>, triangle <i>ADE</i> is similar to triangle <i>ABC</i>.</li><li><i>AB</i> = <i>AD</i> + <i>DB</i> = 6 + 4 = 10.</li><li>Ratio of corresponding sides: <i>DE</i>/<i>BC</i> = <i>AD</i>/<i>AB</i> = 6/10, so 9/<i>BC</i> = 6/10.</li><li><i>BC</i> = 9 × 10 ÷ 6 = <b>15</b> cm.</li></ol>",
+      "why": [
+        "This uses the ratio <i>AD</i>/<i>DB</i> = 6/4 instead of <i>AD</i>/<i>AB</i> = 6/10 (giving 9 × 4/6 = 6).",
+        "This adds <i>DB</i> to <i>DE</i> (9 + 4) instead of using the ratio of similar triangles.",
+        "Correct. <i>BC</i> = 9 × (10/6) = 15.",
+        "This uses <i>AB</i>/<i>DB</i> = 10/4 as the scale factor (9 × 10/4), but the correct factor is <i>AB</i>/<i>AD</i>."
+      ]
+    },
+    {
+      "n": 20,
+      "domain": "Geometry and Trigonometry",
+      "skill": "Arc length and sector area",
+      "difficulty": "HARD",
+      "targetSec": 105,
+      "prompt": "A circular sector has a central angle of <span class=\"frac\"><span>5π</span><span>6</span></span> radians and an arc length of 25 centimetres. What is the area of the sector, in square centimetres?",
+      "choices": [
+        "<span class=\"frac\"><span>30</span><span>π</span></span>",
+        "<span class=\"frac\"><span>375</span><span>π</span></span>",
+        "<span class=\"frac\"><span>750</span><span>π</span></span>",
+        "375π"
+      ],
+      "answer": 1,
+      "explanation": "<ol class=\"steps\"><li>Arc length = <i>r</i>θ, so 25 = <i>r</i> · (5π/6) and <i>r</i> = 25 × 6/(5π) = 30/π cm.</li><li>Sector area = ½<i>r</i><sup>2</sup>θ = ½ · (30/π)<sup>2</sup> · (5π/6).</li><li>= ½ · (900/π<sup>2</sup>) · (5π/6) = 4,500π/(12π<sup>2</sup>) = <b>375/π</b> cm<sup>2</sup> ≈ 119.4.</li><li>Shortcut: area = ½ × (arc length) × <i>r</i> = ½ × 25 × 30/π = 375/π. ✓</li></ol>",
+      "why": [
+        "30/π is the <b>radius</b>, not the area.",
+        "Correct. Sector area = ½ × arc × radius = 375/π.",
+        "750/π forgets the factor ½ in the sector-area formula.",
+        "375π drops the π from the denominator of the radius, treating <i>r</i> as 30 instead of 30/π."
+      ]
+    },
+    {
+      "n": 21,
+      "domain": "Geometry and Trigonometry",
+      "skill": "Trigonometric functions of an angle",
+      "difficulty": "HARD",
+      "targetSec": 105,
+      "prompt": "For an angle θ, cos θ = −<span class=\"frac\"><span>4</span><span>5</span></span> and π &lt; θ &lt; <span class=\"frac\"><span>3π</span><span>2</span></span>. What is the value of sin θ + tan θ ?",
+      "choices": [
+        "−<span class=\"frac\"><span>27</span><span>20</span></span>",
+        "−<span class=\"frac\"><span>3</span><span>20</span></span>",
+        "<span class=\"frac\"><span>3</span><span>20</span></span>",
+        "<span class=\"frac\"><span>27</span><span>20</span></span>"
+      ],
+      "answer": 2,
+      "explanation": "<ol class=\"steps\"><li>Angles with π &lt; θ &lt; 3π/2 lie in the third quadrant, where sine and cosine are both negative and tangent is positive.</li><li>sin<sup>2</sup>θ = 1 − cos<sup>2</sup>θ = 1 − 16/25 = 9/25, so sin θ = −3/5 (negative in this quadrant).</li><li>tan θ = sin θ ÷ cos θ = (−3/5) ÷ (−4/5) = 3/4.</li><li>sin θ + tan θ = −3/5 + 3/4 = −12/20 + 15/20 = <b>3/20</b>.</li></ol>",
+      "why": [
+        "This takes tan θ as negative (−3/4) as well, but tangent is positive in the third quadrant.",
+        "This takes sin θ as positive (+3/5) and tan θ as negative, which is the wrong quadrant’s signs.",
+        "Correct. −3/5 + 3/4 = 3/20.",
+        "This takes both sin θ and tan θ as positive, but sine is negative in the third quadrant."
+      ]
+    },
+    {
+      "n": 22,
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles: tangent lines",
+      "difficulty": "HARD",
+      "targetSec": 115,
+      "prompt": "In the <i>xy</i>-plane, a circle has its centre at (−2, 3) and passes through the point (1, 7). Which equation represents the line that is tangent to the circle at the point (1, 7)?",
+      "choices": [
+        "4<i>x</i> − 3<i>y</i> = −17",
+        "3<i>x</i> − 4<i>y</i> = −25",
+        "4<i>x</i> + 3<i>y</i> = 25",
+        "3<i>x</i> + 4<i>y</i> = 31"
+      ],
+      "answer": 3,
+      "explanation": "<ol class=\"steps\"><li>A tangent line is perpendicular to the radius at the point of tangency. The radius from (−2, 3) to (1, 7) has slope (7 − 3)/(1 − (−2)) = 4/3.</li><li>The tangent slope is the negative reciprocal: −3/4.</li><li>Through (1, 7): <i>y</i> − 7 = −(3/4)(<i>x</i> − 1). Multiply by 4: 4<i>y</i> − 28 = −3<i>x</i> + 3, so 3<i>x</i> + 4<i>y</i> = 31.</li><li>Check (1, 7): 3 + 28 = 31. ✓</li></ol>",
+      "why": [
+        "This is the line through the centre and (1, 7), the <b>radius</b> (slope 4/3), not the tangent.",
+        "This has slope 3/4, the reciprocal of the radius slope but with the wrong sign.",
+        "This has slope −4/3, the negative of the radius slope. The tangent needs the negative <b>reciprocal</b>, −3/4.",
+        "Correct. Slope −3/4 through (1, 7)."
+      ]
+    }
+  ]
+}

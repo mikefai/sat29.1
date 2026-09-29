@@ -1,0 +1,47 @@
+{
+  "examTitle": "Digital SAT Mock Exam",
+  "edition": "International · Hard Calibration",
+  "difficultyNote": "Difficulty tags are relative to this exam, which is deliberately calibrated above official College Board difficulty. An [EASY] item here is roughly comparable to an official medium item.",
+  "modules": [
+    {
+      "id": "rw1",
+      "label": "Reading and Writing · Module 1",
+      "section": "Reading and Writing",
+      "minutes": 32,
+      "questionCount": 27,
+      "file": "data/rw-module-1.json",
+      "status": "ready",
+      "note": "Baseline module. Mixed domains, calibrated above official difficulty."
+    },
+    {
+      "id": "rw2",
+      "label": "Reading and Writing · Module 2",
+      "section": "Reading and Writing",
+      "minutes": 32,
+      "questionCount": 27,
+      "file": "data/rw-module-2.json",
+      "status": "ready",
+      "note": "Adaptive mix of difficulties, with 5 questions targeting common international-student error patterns."
+    },
+    {
+      "id": "m1",
+      "label": "Math · Module 1",
+      "section": "Math",
+      "minutes": 35,
+      "questionCount": 22,
+      "file": "data/math-module-1.json",
+      "status": "ready",
+      "note": "16 multiple-choice and 6 grid-in questions, with a Desmos calculator and reference sheet."
+    },
+    {
+      "id": "m2",
+      "label": "Math · Module 2",
+      "section": "Math",
+      "minutes": 35,
+      "questionCount": 22,
+      "file": "data/math-module-2.json",
+      "status": "ready",
+      "note": "Adaptive mix with 3 multi-step problems built for Desmos."
+    }
+  ]
+}
