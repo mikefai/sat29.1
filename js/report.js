@@ -249,7 +249,8 @@
     const custom = loadVocab();
     const table = (list) => `<table class="data"><thead><tr><th>Word</th><th>Meaning in context</th><th>Source</th></tr></thead><tbody>
       ${list.map((w) => `<tr><td><b>${esc(w.word)}</b>${w.correct ? ' ✓' : ''}${w.chosen ? ' (you chose)' : ''}</td><td>${esc(w.meaning)}</td><td>${esc(w.mod)} Q${w.n}</td></tr>`).join('')}</tbody></table>`;
-    return `<h3>From questions you missed</h3>
+    return `<p><a class="btn btn-sm btn-primary" href="flashcards.html">Study these as flashcards →</a></p>
+      <h3>From questions you missed</h3>
       ${missedWords.length ? table(missedWords) : '<p class="review-meta">No missed Words in Context questions yet.</p>'}
       <h3>Your own words</h3>
       <form id="vocabForm" class="vocab-form">

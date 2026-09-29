@@ -40,5 +40,29 @@ for (const entry of manifest.modules) {
   modules[entry.id] = mod;
 }
 
-writeFileSync(join(root, 'data', 'bundle.js'), `window.SAT_DATA = ${JSON.stringify({ manifest, modules })};\n`);
-console.log(`Bundled ${Object.keys(modules).length} module(s): ${Object.keys(modules).join(', ')}`);
+// Flashcards: validate against the exam so a card can never claim a word that is not in its question.
+let flashcards = null;
+const cardPath = join(root, 'data', 'flashcards.json');
+if (existsSync(cardPath)) {
+  flashcards = JSON.parse(readFileSync(cardPath, 'utf8'));
+  const seen = new Set();
+  flashcards.cards.forEach((c) => {
+    const where = `flashcard "${c.id}"`;
+    ['id', 'word', 'def', 'cat'].forEach((k) => { if (!c[k]) throw new Error(`${where}: missing ${k}`); });
+    if (seen.has(c.id)) throw new Error(`${where}: duplicate id`);
+    seen.add(c.id);
+    (c.src || []).forEach((ref) => {
+      const [mid, n] = ref.split(':');
+      const q = modules[mid] && modules[mid].questions[Number(n) - 1];
+      if (!q) throw new Error(`${where}: source ${ref} does not exist`);
+      if (c.role) {
+        const idx = q.choices.findIndex((ch) => ch.toLowerCase() === c.word.toLowerCase());
+        if (idx < 0) throw new Error(`${where}: "${c.word}" is not a choice in ${ref}`);
+        if ((c.role === 'answer') !== (idx === q.answer)) throw new Error(`${where}: role "${c.role}" disagrees with the answer key in ${ref}`);
+      }
+    });
+  });
+}
+
+writeFileSync(join(root, 'data', 'bundle.js'), `window.SAT_DATA = ${JSON.stringify({ manifest, modules, flashcards })};\n`);
+console.log(`Bundled ${Object.keys(modules).length} module(s): ${Object.keys(modules).join(', ')}${flashcards ? `; ${flashcards.cards.length} flashcards` : ''}`);

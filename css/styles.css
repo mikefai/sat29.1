@@ -386,6 +386,32 @@ table.data td:not(:first-child) { text-align: right; font-variant-numeric: tabul
 .pace td, .pace th { text-align: center !important; }
 .pace td:first-child, .pace th:first-child { text-align: left !important; }
 
+/* ---------- Flashcards ---------- */
+.fc-progress { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; margin: 4px 0 14px; }
+.fc-card {
+  display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 12px;
+  width: 100%; min-height: 300px; padding: 28px 24px; text-align: center;
+  background: var(--surface); border: 2px solid var(--line); border-radius: 18px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  transition: border-color 0.12s, transform 0.12s;
+}
+.fc-card:hover { border-color: var(--ink-3); }
+.fc-card.flipped { border-color: var(--accent); background: var(--accent-soft); }
+.fc-tags { font-size: 12px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); }
+.fc-front, .fc-back { display: flex; flex-direction: column; gap: 10px; align-items: center; max-width: 560px; }
+.fc-word { font-family: var(--serif); font-size: clamp(34px, 7vw, 56px); font-weight: 700; line-height: 1.1; }
+.fc-pos { color: var(--ink-3); font-style: italic; }
+.fc-word-sm { font-family: var(--serif); font-size: 26px; font-weight: 700; }
+.fc-word-sm i { font-size: 15px; font-weight: 400; color: var(--ink-3); }
+.fc-def { font-size: 19px; line-height: 1.5; }
+.fc-ex { font-family: var(--serif); font-style: italic; color: var(--ink-2); font-size: 17px; }
+.fc-note { font-size: 14px; background: var(--surface); border-radius: 8px; padding: 8px 12px; color: var(--ink-2); }
+.fc-src { font-size: 13px; color: var(--ink-3); }
+.fc-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 16px 0 6px; }
+.fc-help { text-align: center; }
+.fc-empty { text-align: center; padding: 48px 16px; background: var(--surface); border: 1px dashed var(--line); border-radius: 16px; }
+.fc-search { width: 100%; font: inherit; padding: 10px 14px; margin: 6px 0 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); }
+.fc-stats .stat .v { font-size: 24px; }
+
 @media print {
   .topbar, .bottombar, .review-toolbar, .btn, .no-print { display: none !important; }
   body { background: #fff; color: #000; }

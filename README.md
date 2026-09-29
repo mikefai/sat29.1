@@ -19,6 +19,21 @@ All four modules are complete. The pack also includes the **scoring guide** (raw
 and a **printable pacing card**. Open `report.html` (or the link on the home screen) for the live version, which fills in
 from your saved results. Static copies are in `docs/`.
 
+## Flashcards
+
+Open `flashcards.html` (or the link on the home screen). The deck has **62 cards** in three sets:
+
+- **Words tested (32):** every answer choice in the eight Words in Context questions, the right answers and the tempting wrong ones, each with a definition, an example sentence and a note on what it is confused with.
+- **From the passages (23):** hard words such as *leach*, *wane*, *mundane* and *extraneous*.
+- **Usage patterns (7):** the international-student error patterns (conducive **to**, number vs. amount, by contrast vs. on the contrary, and others).
+
+Study uses five **Leitner boxes**: “Got it” moves a card up a box so it returns after 1, 3, 7 and 14 days, and “Again” sends it back to box 1.
+Finish a Reading and Writing module and the **Missed on exam** deck fills in automatically. Words you add on the report page appear
+as “Your words”. Keyboard: <kbd>Space</kbd> flips, <kbd>1</kbd> is Again, <kbd>2</kbd> is Got it. Progress is stored only in your browser.
+
+To add or edit cards, change `data/flashcards.json` and run `node tools/build-bundle.mjs`. The build checks that every tested-word card
+matches its exam question and the answer key.
+
 ## How to run
 
 **Option 1: open the file.** Double-click `index.html`. This works because `data/bundle.js` carries the exam data.
@@ -78,10 +93,13 @@ scored separately on the results page.
 ```
 index.html               exam entry point
 report.html              score report, analysis framework, pacing card
+flashcards.html          vocabulary flashcards with spaced repetition
 css/styles.css           focus-oriented light/dark UI
 js/app.js                test engine: timer, navigator, grid-ins, calculator, review
 js/scoring.js            raw-to-scaled model and pacing checkpoints (shared by report and docs build)
 js/report.js             report page logic
+js/flashcards.js         flashcard study logic
+data/flashcards.json     the 62-card deck
 data/manifest.json       module list, timings, status
 data/rw-module-1.json    Reading and Writing Module 1 (27 questions)
 data/rw-module-2.json    Reading and Writing Module 2 (27 questions)

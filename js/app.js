@@ -160,6 +160,8 @@
       <ul class="module-list">${cards}</ul>
       <div class="callout"><strong>Score report and analysis.</strong> Scoring guide (raw to scaled), post-test analysis and a printable pacing card.
         Fills in automatically as you finish modules. <a href="report.html">Open the report →</a></div>
+      <div class="callout"><strong>Vocabulary flashcards.</strong> Every word tested in the exam, the hard words from the passages, and usage patterns.
+        Spaced repetition, plus a deck of the words you missed. <a href="flashcards.html">Open the flashcards →</a></div>
       <section class="settings" aria-label="Settings">
         <h2>Settings</h2>
         <label class="setting-row"><input type="checkbox" data-setting="timed" ${s.timed ? 'checked' : ''}> Timed mode (applies when you start a module)</label>
